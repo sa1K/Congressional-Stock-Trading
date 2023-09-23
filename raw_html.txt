@@ -1,0 +1,2302 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Track US politician stock trades - Capitol Trades
+  </title>
+  <meta content="Track US politician stock trades - Capitol Trades" name="title"/>
+  <meta content="Track US politician trades for free with Capitol Trades. Discover which Stocks/Assets/Companies/Issuers politicians are buying or selling." name="description"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Track US politician stock trades - Capitol Trades" property="og:title"/>
+  <meta content="Track US politician trades for free with Capitol Trades. Discover which Stocks/Assets/Companies/Issuers politicians are buying or selling." property="og:description"/>
+  <meta content="https://www.capitoltrades.com/_next/static/media/ct-meta-image.949a334b.jpg" property="og:image"/>
+  <meta content="https://www.capitoltrades.com/trades" property="og:url"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Track US politician stock trades - Capitol Trades" name="twitter:title"/>
+  <meta content="Track US politician trades for free with Capitol Trades. Discover which Stocks/Assets/Companies/Issuers politicians are buying or selling." name="twitter:description"/>
+  <meta content="https://www.capitoltrades.com/_next/static/media/ct-meta-image.949a334b.jpg" name="twitter:image"/>
+  <meta content="@capitol2iq" name="twitter:site"/>
+  <meta content="https://www.capitoltrades.com/trades" name="twitter:url"/>
+  <link href="https://www.capitoltrades.com/trades" rel="canonical"/>
+  <link href="/favicon.ico" rel="icon" sizes="any"/>
+  <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+  <link href="/site.webmanifest" rel="manifest"/>
+  <meta content="21" name="next-head-count"/>
+  <link crossorigin="anonymous" data-next-font="" href="/" rel="preconnect"/>
+  <link as="style" href="/_next/static/css/7d0197b2f51f4f3d.css" rel="preload"/>
+  <link data-n-g="" href="/_next/static/css/7d0197b2f51f4f3d.css" rel="stylesheet"/>
+  <noscript data-n-css="">
+  </noscript>
+  <script defer="" nomodule="" src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/webpack-f3eecf2e0356d7d6.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/framework-416dbf692f898d82.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/main-5a52f157de555878.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/pages/_app-3222039289d0165e.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/2301-beee627adfab2f64.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/3974-77a398cbe3ac3e99.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/2666-4aa493c43c9598b5.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/1612-4be0c1b547161e65.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/9398-2e7b2afe012e4096.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/9794-d44bef8e0409d70b.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/6325-e1030c27a5809f51.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/1826-b68c0422a5946f13.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/pages/trades-78c2c094e2cbd865.js">
+  </script>
+  <script defer="" src="/_next/static/Yd3CkonKDNgO4C5dBUYDG/_buildManifest.js">
+  </script>
+  <script defer="" src="/_next/static/Yd3CkonKDNgO4C5dBUYDG/_ssgManifest.js">
+  </script>
+ </head>
+ <body>
+  <div id="__next">
+   <div class="site-root theme--dark page--trades-index content-type--index">
+    <header class="site-header">
+     <div class="container">
+      <div class="site-logo">
+       <a aria-label="Go to site's root page." href="/">
+        <svg height="36" width="159" xmlns="http://www.w3.org/2000/svg">
+         <g fill="none">
+          <path class="logotype" d="M159 20.3v-4.7h-9.5V.8H144v19.5h15Zm-17.2-5.8c.6-1.2.8-2.5.8-4 0-1.4-.2-2.7-.8-4a10.3 10.3 0 0 0-2.2-3.1 10.6 10.6 0 0 0-7.5-3 10.8 10.8 0 0 0-7.6 3 10 10 0 0 0-2.2 3.3 9.7 9.7 0 0 0-.8 3.9c0 1.5.3 2.8.8 4a10.3 10.3 0 0 0 2.2 3.2 10.6 10.6 0 0 0 7.5 3 10.8 10.8 0 0 0 7.6-3 9.5 9.5 0 0 0 2.2-3.3Zm-3.1-6-3.9 3 1.4 5-4-3-4 3 1.4-5-3.8-3 4.8-.1 1.6-4.8 1.6 4.8 4.9.1Zm-23.3-3h5.9V.8H104v4.7h5.9v14.8h5.4V5.5ZM97.6 20.3h5.4V.8h-5.4v19.5Zm-1.7-9.5a7 7 0 0 0 .7-3v-.1c0-1.1-.2-2-.6-3a5.8 5.8 0 0 0-1.6-2 7 7 0 0 0-2.6-1.4c-1-.3-2.1-.5-3.3-.5H80v19.5h5.4v-5.5h2.7c1.2 0 2.3-.2 3.3-.5s2-.7 2.7-1.3a6.5 6.5 0 0 0 1.8-2.2ZM91.2 8c0 .7-.3 1.4-.9 1.8-.5.5-1.3.7-2.3.7h-2.5V5.3H88c1 0 1.8.2 2.3.7.6.4.9 1 .9 2ZM73.7 20.3h5.9L71.2.6H66l-8.3 19.7h5.7l1.4-3.5h7.5l1.4 3.5Zm-3-7.6h-4.3L68.6 7l2.2 5.6Zm-25.1-2.1v-.1c0-.7 0-1.4.3-2a5 5 0 0 1 1-1.7 4.6 4.6 0 0 1 1.4-1 4.6 4.6 0 0 1 2-.5c.9 0 1.7.2 2.3.6a7 7 0 0 1 1.9 1.7L58 4l-1-1.2c-.6-.5-1.2-1-1.9-1.3A9.5 9.5 0 0 0 53 .6a12.2 12.2 0 0 0-2.8-.2c-1.5 0-2.8.2-4 .8a9.2 9.2 0 0 0-3.3 2.1c-1 1-1.7 2-2.2 3.3a10.4 10.4 0 0 0-.8 4 10 10 0 0 0 3 7.2A9.2 9.2 0 0 0 46 20c1.2.5 2.5.8 4 .8a11.7 11.7 0 0 0 2.8-.4c.9-.2 1.7-.5 2.4-.9a8.2 8.2 0 0 0 1.9-1.4l1.5-1.7-4-3a8.8 8.8 0 0 1-2 1.8l-1.1.5-1.4.1a4 4 0 0 1-1.9-.4c-.6-.2-1-.6-1.5-1a5 5 0 0 1-1-1.7 6.4 6.4 0 0 1-.2-2Zm-1.2 24.8h1.1v-9.6h3.8v-1h-8.6v1h3.7v9.6Zm19 0-2.7-3.6c.8-.3 1.4-.7 1.8-1.3.4-.5.7-1.2.7-2 0-1.2-.4-2-1.2-2.7-.7-.7-1.8-1-3.2-1h-4v10.6H56V32h3.7l2.4 3.4h1.2Zm-4.6-4.3H56v-5.3h2.8c1 0 1.8.2 2.4.7.5.4.8 1 .8 2a3 3 0 0 1-.8 2c-.6.4-1.4.6-2.4.6Zm18.7 4.3h1.2l-4.9-10.6h-1.1l-4.9 10.6H69l1.3-2.8h5.9l1.3 2.8Zm-6.8-3.7 2.6-5.7 2.5 5.7h-5Zm13.5 3.7h4.3c1.2 0 2.1-.2 3-.7a5 5 0 0 0 2-1.8c.5-.8.7-1.8.7-2.8 0-1-.2-2-.7-2.8a5 5 0 0 0-2-1.8c-.9-.5-1.8-.7-3-.7h-4.3v10.6Zm1.1-1v-8.6h3.2c1 0 1.7.2 2.4.5.7.4 1.3 1 1.7 1.5a5.6 5.6 0 0 1 0 4.6 3.8 3.8 0 0 1-1.7 1.5 5 5 0 0 1-2.4.5h-3.2Zm16.4 0v-3.9h5.5v-1h-5.5v-3.7h6.1v-1h-7.3v10.6h7.5v-1h-6.3Zm15.7 1.1c.9 0 1.6-.1 2.2-.4.6-.2 1-.6 1.3-1 .3-.5.5-1 .5-1.5 0-.6-.2-1.1-.5-1.5a3 3 0 0 0-1.3-.9c-.4-.2-1-.4-1.8-.5a17.9 17.9 0 0 1-1.6-.5 2.4 2.4 0 0 1-1-.6c-.2-.3-.3-.6-.3-1 0-.6.2-1 .7-1.4.4-.4 1.1-.6 2-.6l1.5.3 1.5.6.4-.9a6 6 0 0 0-1.5-.6 6.7 6.7 0 0 0-1.8-.3c-.9 0-1.6.1-2.2.4-.6.2-1 .6-1.3 1a2.6 2.6 0 0 0-.4 1.5c0 .7.1 1.2.5 1.5.3.4.7.7 1.2.9l1.9.6 1.5.4c.3.1.7.3 1 .6.3.2.4.6.4 1a1.6 1.6 0 0 1-.7 1.4 4 4 0 0 1-2.1.5 6 6 0 0 1-2-.4 4 4 0 0 1-1.5-.9l-.5.9c.4.4 1 .7 1.7 1a5 5 0 0 0 2.2.4Z">
+          </path>
+          <path class="flag-red" d="M32.8 17v-2.7l-13 10.2-8.5-3.7L.5 28.2v2.5l10.8-7.5 8.6 3.7 12.9-10Zm-21.5 1.5 8.6 3.8 12.9-10V9.7L20 20l-8.7-4m0-2.1 8.6 3.7 12.9-10V5.2L20 15.3l-8.6-3.7m0-2.3 8.6 3.8L32.8 3V.5l-13 10.2-8.5-3.8m0 18.5L.5 32.8v2.5l10.8-7.6 8.6 3.8 12.9-10V19L20 29.1l-8.6-3.7Z">
+          </path>
+          <path class="flag-blue" d="m.5 26.1 10.8-7.5v-2.4L.5 23.6V26m10.8-14.5L.5 19v2.5L11.3 14m0-7L.5 14.3v2.5l10.8-7.5">
+          </path>
+         </g>
+        </svg>
+       </a>
+      </div>
+      <div class="topnav">
+       <input class="menu-btn" id="menu-btn" type="checkbox"/>
+       <label class="hamburger" for="menu-btn">
+        <span class="nav-icon">
+        </span>
+       </label>
+       <nav class="nav">
+        <ul class="topnav-items">
+         <li class="topnav-item is--active trades">
+          <a href="/trades">
+           <span>
+            Trades
+           </span>
+          </a>
+         </li>
+         <li class="topnav-item politicians">
+          <a href="/politicians">
+           <span>
+            Politicians
+           </span>
+          </a>
+         </li>
+         <li class="topnav-item issuer">
+          <a href="/issuers">
+           <span>
+            Issuers
+           </span>
+          </a>
+         </li>
+         <li class="topnav-item articles">
+          <a href="/articles">
+           <span>
+            Insights
+           </span>
+          </a>
+         </li>
+         <li class="topnav-item buzz">
+          <a href="/buzz">
+           <span>
+            Buzz
+           </span>
+          </a>
+         </li>
+         <li class="topnav-item press">
+          <a href="/press">
+           <span>
+            Press
+           </span>
+          </a>
+         </li>
+         <li class="topnav-item more">
+          <div class="dropdown-subnav">
+           <span class="label">
+            More
+           </span>
+           <span class="svg-icon icon--chevron-down size--xs color--secondary">
+           </span>
+           <ul class="subnav">
+            <li class="subnav-item committees">
+             <a href="/committees">
+              <span>
+               Committees
+              </span>
+             </a>
+            </li>
+            <li class="subnav-item states">
+             <a href="/states">
+              <span>
+               States
+              </span>
+             </a>
+            </li>
+            <li class="subnav-item about-us">
+             <a href="/about-us">
+              <span>
+               About us
+              </span>
+             </a>
+            </li>
+           </ul>
+          </div>
+         </li>
+        </ul>
+       </nav>
+      </div>
+     </div>
+    </header>
+    <main class="site-main">
+     <div class="container">
+      <article class="q-page page-index transaction-page-index entity--transaction is--chromeless">
+       <header class="page-header page-index-header transaction-page-index-header">
+        <h1>
+         Trades
+        </h1>
+        <menu class="page-index-header-menu">
+         <li class="header-datepicker">
+          <div>
+           <div class="dropdown-group field--tx-date">
+            <div class="dropdown-selector q-flyout--plain">
+             <span class="q-label">
+              3 YEARS
+             </span>
+             <div class="controls">
+              <span class="svg-icon icon--chevron-down size--xs color--secondary">
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </li>
+         <li class="header-filters">
+         </li>
+         <li class="header-sort">
+          <div class="dropdown-group field--sort-by">
+           <div class="dropdown-selector q-flyout--icon">
+            <div class="controls">
+             <span class="svg-icon icon--sort size--m color--secondary">
+             </span>
+            </div>
+           </div>
+          </div>
+         </li>
+        </menu>
+       </header>
+       <section class="page-body page-index-body transaction-page-index-body">
+        <div class="filters-section-trades">
+         <div class="dropdown-group field--politician">
+          <div style="width:100%;display:flex">
+           <div class="debounced-input-container">
+            <input autocomplete="off" autocorrect="off" class="debounced-input" placeholder="Find by politician" type="text" value=""/>
+            <div class="controls">
+             <span class="svg-icon icon--search size--m color--secondary">
+             </span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--committee">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Committee
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--party">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Political Party
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--chamber">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Congress Chamber
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--state">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Politician State
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--issuer">
+          <div style="width:100%;display:flex">
+           <div class="debounced-input-container">
+            <input autocomplete="off" autocorrect="off" class="debounced-input" placeholder="Find by issuer" type="text" value=""/>
+            <div class="controls">
+             <span class="svg-icon icon--search size--m color--secondary">
+             </span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--asset-type">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Asset Type
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--tx-type">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Transaction Type
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--trade-size">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Trade Size
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--mcap">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Market Cap
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--issuer-state">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Issuer State
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--label">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Transaction Label
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--gender">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Gender
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--sector">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Sector
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="dropdown-group field--country">
+          <div class="dropdown-selector q-flyout--default">
+           <span class="q-label">
+            Issuer Country
+           </span>
+           <div class="controls">
+            <span class="svg-icon icon--chevron-down size--xs color--secondary">
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+        <article class="q-widget q-data-digest transaction-data-digest entity--transaction is--chromeless">
+         <section class="q-widget-body data-digest-body transaction-data-digest-body">
+          <div class="digest-cell count-trades">
+           <div class="q-cell cell--count-trades flavour--lv">
+            <div class="q-label">
+             Trades
+            </div>
+            <div class="q-value">
+             40,365
+            </div>
+           </div>
+           <figure class="digest-icon-wrapper">
+            <div class="svg-image digest-icon" style="-webkit-mask-image:url('/_next/static/media/entity-trade.7a917eb3.svg');mask-image:url('/_next/static/media/entity-trade.7a917eb3.svg')">
+            </div>
+           </figure>
+          </div>
+          <div class="digest-cell count-filings">
+           <div class="q-cell cell--count-filings flavour--lv">
+            <div class="q-label">
+             Filings
+            </div>
+            <div class="q-value">
+             2,061
+            </div>
+           </div>
+           <figure class="digest-icon-wrapper">
+            <div class="svg-image digest-icon" style="-webkit-mask-image:url('/_next/static/media/entity-filing.032d427b.svg');mask-image:url('/_next/static/media/entity-filing.032d427b.svg')">
+            </div>
+           </figure>
+          </div>
+          <div class="digest-cell volume">
+           <div class="q-cell cell--volume flavour--lv">
+            <div class="q-label">
+             Volume
+            </div>
+            <div class="q-value">
+             1.914B
+            </div>
+           </div>
+           <figure class="digest-icon-wrapper">
+            <div class="svg-image digest-icon" style="-webkit-mask-image:url('/_next/static/media/moneybag.946dccc9.svg');mask-image:url('/_next/static/media/moneybag.946dccc9.svg')">
+            </div>
+           </figure>
+          </div>
+          <div class="digest-cell count-politicians">
+           <div class="q-cell cell--count-politicians flavour--lv">
+            <div class="q-label">
+             Politicians
+            </div>
+            <div class="q-value">
+             228
+            </div>
+           </div>
+           <figure class="digest-icon-wrapper">
+            <div class="svg-image digest-icon" style="-webkit-mask-image:url('/_next/static/media/entity-politician.a7c752b7.svg');mask-image:url('/_next/static/media/entity-politician.a7c752b7.svg')">
+            </div>
+           </figure>
+          </div>
+          <div class="digest-cell count-issuers">
+           <div class="q-cell cell--count-issuers flavour--lv">
+            <div class="q-label">
+             Issuers
+            </div>
+            <div class="q-value">
+             3,600
+            </div>
+           </div>
+           <figure class="digest-icon-wrapper">
+            <div class="svg-image digest-icon" style="-webkit-mask-image:url('/_next/static/media/entity-issuer.bb954293.svg');mask-image:url('/_next/static/media/entity-issuer.bb954293.svg')">
+            </div>
+           </figure>
+          </div>
+         </section>
+        </article>
+        <div class="q-table-wrapper">
+         <div class="trade-table-scroll-wrapper">
+          <table class="q-table trades-table">
+           <thead>
+            <tr class="q-tr">
+             <th class="q-th q-column--politician">
+              <span>
+               Politician
+              </span>
+             </th>
+             <th class="q-th q-column--issuer">
+              <span>
+               Traded Issuer
+              </span>
+             </th>
+             <th class="q-th q-column--pubDate">
+              <span>
+               Published
+              </span>
+             </th>
+             <th class="q-th q-column--txDate">
+              <span>
+               Traded
+              </span>
+             </th>
+             <th class="q-th q-column--reportingGap">
+              <span>
+               Filed after
+              </span>
+             </th>
+             <th class="q-th q-column--owner">
+              <span>
+               Owner
+              </span>
+             </th>
+             <th class="q-th q-column--txType">
+              <span>
+               Type
+              </span>
+             </th>
+             <th class="q-th q-column--value">
+              <span>
+               Size
+              </span>
+             </th>
+             <th class="q-th q-column--price">
+              <span>
+               Price
+              </span>
+             </th>
+             <th class="q-th q-column--_txId">
+              <span>
+              </span>
+             </th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/bb9c9a7f31/k000398.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/K000398">
+                  Thomas Kean Jr
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--house">
+                  House
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--nj">
+                  NJ
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="C">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/431125">
+                   Crown Holdings Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  CCK:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 Yesterday
+                </div>
+                <div class="q-value">
+                 13:05
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 19 Apr
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--4">
+                 152
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--not-disclosed">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg');mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg')">
+                </div>
+                <span class="q-label">
+                 Undisclosed
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--buy has-asterisk">
+                  buy
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                79.74
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/20003767339">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/bb9c9a7f31/k000398.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/K000398">
+                  Thomas Kean Jr
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--house">
+                  House
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--nj">
+                  NJ
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="D">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/431181">
+                   Danaher Corp
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  DHR:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 Yesterday
+                </div>
+                <div class="q-value">
+                 13:05
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 31 Jul
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--3">
+                 49
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--not-disclosed">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg');mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg')">
+                </div>
+                <span class="q-label">
+                 Undisclosed
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--buy has-asterisk">
+                  buy
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                255.06
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/20003767340">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/bb9c9a7f31/k000398.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/K000398">
+                  Thomas Kean Jr
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--house">
+                  House
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--nj">
+                  NJ
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="F">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/431675">
+                   Fidelity National Information Services Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  FIS:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 Yesterday
+                </div>
+                <div class="q-value">
+                 13:05
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 4 May
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--4">
+                 137
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--not-disclosed">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg');mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg')">
+                </div>
+                <span class="q-label">
+                 Undisclosed
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--sell has-asterisk">
+                  sell
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                53.23
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/20003767341">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/bb9c9a7f31/k000398.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/K000398">
+                  Thomas Kean Jr
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--house">
+                  House
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--nj">
+                  NJ
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="F">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/431675">
+                   Fidelity National Information Services Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  FIS:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 Yesterday
+                </div>
+                <div class="q-value">
+                 13:05
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 12 Jun
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--4">
+                 98
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--not-disclosed">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg');mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg')">
+                </div>
+                <span class="q-label">
+                 Undisclosed
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--buy has-asterisk">
+                  buy
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                54.48
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/20003767342">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/bb9c9a7f31/k000398.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/K000398">
+                  Thomas Kean Jr
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--house">
+                  House
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--nj">
+                  NJ
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="G">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/431998">
+                   GLOBAL PAYMENTS Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  GPN:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 Yesterday
+                </div>
+                <div class="q-value">
+                 13:05
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 12 Jun
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--4">
+                 98
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--not-disclosed">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg');mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg')">
+                </div>
+                <span class="q-label">
+                 Undisclosed
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--sell has-asterisk">
+                  sell
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                100.7
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/20003767343">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/bb9c9a7f31/k000398.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/K000398">
+                  Thomas Kean Jr
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--house">
+                  House
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--nj">
+                  NJ
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="J">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/432796">
+                   JPMorgan Chase &amp; Co
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  JPM:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 Yesterday
+                </div>
+                <div class="q-value">
+                 13:05
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 3 Apr
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--4">
+                 168
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--not-disclosed">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg');mask-image:url('/_next/static/media/owner-undisclosed.707e4720.svg')">
+                </div>
+                <span class="q-label">
+                 Undisclosed
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--buy has-asterisk">
+                  buy
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                130.16
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/20003767344">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/7716c1ad2b/b001319.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/B001319">
+                  Katie Britt
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--senate">
+                  Senate
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--al">
+                  AL
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="M">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/2334532">
+                   MACK BAYOU TOWNHOMES HOLDINGS LLC
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  N/A
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 18 Sept
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 25 Aug
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--2">
+                 24
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--spouse">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-spouse.a45de0fe.svg');mask-image:url('/_next/static/media/owner-spouse.a45de0fe.svg')">
+                </div>
+                <span class="q-label">
+                 Spouse
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <div data-state="closed">
+                <div class="tx-type-tooltip-wrapper">
+                 <span class="q-field tx-type tx-type--buy has-asterisk">
+                  buy
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--100">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--buy">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    100K–250K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="no-price">
+                N/A
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/10000061369">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/b3dbcd42bb/s001198.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/S001198">
+                  Dan Sullivan
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--senate">
+                  Senate
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--ak">
+                  AK
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="Z">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/436024">
+                   Zoetis Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  ZTS:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 18 Sept
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 22 Aug
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--2">
+                 27
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--joint">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg');mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg')">
+                </div>
+                <span class="q-label">
+                 Joint
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <span class="q-field tx-type tx-type--sell">
+                sell
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                181.82
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/10000061336">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/b3dbcd42bb/s001198.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/S001198">
+                  Dan Sullivan
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--senate">
+                  Senate
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--ak">
+                  AK
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="U">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/435443">
+                   Ulta Beauty Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  ULTA:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 18 Sept
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 22 Aug
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--2">
+                 27
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--joint">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg');mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg')">
+                </div>
+                <span class="q-label">
+                 Joint
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <span class="q-field tx-type tx-type--sell">
+                sell
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                430.58
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/10000061337">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/b3dbcd42bb/s001198.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/S001198">
+                  Dan Sullivan
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--senate">
+                  Senate
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--ak">
+                  AK
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="T">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/435338">
+                   Tractor Supply Co
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  TSCO:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 18 Sept
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 22 Aug
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--2">
+                 27
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--joint">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg');mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg')">
+                </div>
+                <span class="q-label">
+                 Joint
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <span class="q-field tx-type tx-type--sell">
+                sell
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                215.0
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/10000061338">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/b3dbcd42bb/s001198.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/S001198">
+                  Dan Sullivan
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--senate">
+                  Senate
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--ak">
+                  AK
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="T">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/435281">
+                   The TJX Companies Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  TJX:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 18 Sept
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 22 Aug
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--2">
+                 27
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--joint">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg');mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg')">
+                </div>
+                <span class="q-label">
+                 Joint
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <span class="q-field tx-type tx-type--sell">
+                sell
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--100">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    15K–50K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                89.1
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/10000061339">
+              </a>
+             </td>
+            </tr>
+            <tr class="q-tr">
+             <td class="q-td q-column--politician">
+              <div class="q-cell cell--politician has-avatar">
+               <img alt="" class="politician-avatar republican" decoding="async" loading="lazy" src="https://a.storyblok.com/f/158613/450x550/b3dbcd42bb/s001198.jpg/m/225x225/smart/filters:quality(90)"/>
+               <div>
+                <h3 class="q-fieldset politician-name">
+                 <a href="/politicians/S001198">
+                  Dan Sullivan
+                 </a>
+                </h3>
+                <div class="q-fieldset politician-info">
+                 <span class="q-field party party--republican">
+                  Republican
+                 </span>
+                 <span class="q-field chamber chamber--senate">
+                  Senate
+                 </span>
+                 <span class="q-field us-state-compact us-state-compact--ak">
+                  AK
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--issuer">
+              <div class="q-cell cell--traded-issuer has-avatar">
+               <figure class="issuer-avatar issuer-avatar-letter" data-letter="T">
+               </figure>
+               <div>
+                <div class="q-fieldset issuer-info">
+                 <h3 class="q-fieldset issuer-name">
+                  <a href="/issuers/435244">
+                   Thermo Fisher Scientific Inc
+                  </a>
+                 </h3>
+                 <span class="q-field issuer-ticker">
+                  TMO:US
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--pubDate">
+              <div class="q-cell cell--pub-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 18 Sept
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--txDate">
+              <div class="q-cell cell--tx-date">
+               <div class="q-cell cell--count-issuers flavour--lv">
+                <div class="q-label">
+                 2023
+                </div>
+                <div class="q-value">
+                 22 Aug
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--reportingGap">
+              <div class="q-cell cell--reporting-gap flavour--lv">
+               <div class="q-label">
+                days
+               </div>
+               <div class="q-value">
+                <span class="reporting-gap-tier--2">
+                 27
+                </span>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--owner">
+              <div class="q-cell cell--owner">
+               <span class="q-field owner-with-icon owner-with-icon--joint">
+                <div class="svg-image owner-icon" style="-webkit-mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg');mask-image:url('/_next/static/media/owner-joint.ef3a832f.svg')">
+                </div>
+                <span class="q-label">
+                 Joint
+                </span>
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--txType">
+              <div class="q-cell cell--tx-type">
+               <span class="q-field tx-type tx-type--sell">
+                sell
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--value">
+              <div class="q-cell cell--trade-size">
+               <div data-state="closed">
+                <div class="tx-trade-size-tooltip-wrapper">
+                 <span class="q-field trade-size">
+                  <div class="q-range-icon-wrapper">
+                   <div class="range-icon">
+                    <span class="range-icon__symbol range-icon__symbol--50">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                    <span class="range-icon__symbol range-icon__symbol--0">
+                     <span class="svg-icon icon--moneybag size--s color--sell">
+                     </span>
+                    </span>
+                   </div>
+                   <span class="q-label">
+                    1K–15K
+                   </span>
+                  </div>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </td>
+             <td class="q-td q-column--price">
+              <div class="q-cell cell--trade-price">
+               <span class="q-field trade-price">
+                527.05
+               </span>
+              </div>
+             </td>
+             <td class="q-td q-column--_txId">
+              <a aria-label="Go to transaction" class="entity-link entity-transaction more-link" href="/trades/10000061340">
+              </a>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+         <div class="pagination">
+          <button aria-label="First page. Disabled previous page navigation." class="prev" disabled="">
+          </button>
+          <p>
+           Page
+           <b>
+            1
+           </b>
+           of
+           <b>
+            3364
+           </b>
+          </p>
+          <a aria-label="Go to next page." class="next" href="/trades?page=2">
+          </a>
+          <div class="per-page">
+           <span class="q-label">
+            Show
+           </span>
+           <div class="dropdown-group field--per-page">
+            <div class="dropdown-selector q-flyout--plain">
+             <span class="q-label">
+              12
+             </span>
+             <div class="controls">
+              <span class="svg-icon icon--chevron-down size--xs color--secondary">
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+      </article>
+     </div>
+    </main>
+    <footer class="site-footer">
+     <div class="container">
+      <div class="site-logo">
+       <a aria-label="Go to site's root page." href="/">
+        <svg height="36" width="159" xmlns="http://www.w3.org/2000/svg">
+         <g fill="none">
+          <path class="logotype" d="M159 20.3v-4.7h-9.5V.8H144v19.5h15Zm-17.2-5.8c.6-1.2.8-2.5.8-4 0-1.4-.2-2.7-.8-4a10.3 10.3 0 0 0-2.2-3.1 10.6 10.6 0 0 0-7.5-3 10.8 10.8 0 0 0-7.6 3 10 10 0 0 0-2.2 3.3 9.7 9.7 0 0 0-.8 3.9c0 1.5.3 2.8.8 4a10.3 10.3 0 0 0 2.2 3.2 10.6 10.6 0 0 0 7.5 3 10.8 10.8 0 0 0 7.6-3 9.5 9.5 0 0 0 2.2-3.3Zm-3.1-6-3.9 3 1.4 5-4-3-4 3 1.4-5-3.8-3 4.8-.1 1.6-4.8 1.6 4.8 4.9.1Zm-23.3-3h5.9V.8H104v4.7h5.9v14.8h5.4V5.5ZM97.6 20.3h5.4V.8h-5.4v19.5Zm-1.7-9.5a7 7 0 0 0 .7-3v-.1c0-1.1-.2-2-.6-3a5.8 5.8 0 0 0-1.6-2 7 7 0 0 0-2.6-1.4c-1-.3-2.1-.5-3.3-.5H80v19.5h5.4v-5.5h2.7c1.2 0 2.3-.2 3.3-.5s2-.7 2.7-1.3a6.5 6.5 0 0 0 1.8-2.2ZM91.2 8c0 .7-.3 1.4-.9 1.8-.5.5-1.3.7-2.3.7h-2.5V5.3H88c1 0 1.8.2 2.3.7.6.4.9 1 .9 2ZM73.7 20.3h5.9L71.2.6H66l-8.3 19.7h5.7l1.4-3.5h7.5l1.4 3.5Zm-3-7.6h-4.3L68.6 7l2.2 5.6Zm-25.1-2.1v-.1c0-.7 0-1.4.3-2a5 5 0 0 1 1-1.7 4.6 4.6 0 0 1 1.4-1 4.6 4.6 0 0 1 2-.5c.9 0 1.7.2 2.3.6a7 7 0 0 1 1.9 1.7L58 4l-1-1.2c-.6-.5-1.2-1-1.9-1.3A9.5 9.5 0 0 0 53 .6a12.2 12.2 0 0 0-2.8-.2c-1.5 0-2.8.2-4 .8a9.2 9.2 0 0 0-3.3 2.1c-1 1-1.7 2-2.2 3.3a10.4 10.4 0 0 0-.8 4 10 10 0 0 0 3 7.2A9.2 9.2 0 0 0 46 20c1.2.5 2.5.8 4 .8a11.7 11.7 0 0 0 2.8-.4c.9-.2 1.7-.5 2.4-.9a8.2 8.2 0 0 0 1.9-1.4l1.5-1.7-4-3a8.8 8.8 0 0 1-2 1.8l-1.1.5-1.4.1a4 4 0 0 1-1.9-.4c-.6-.2-1-.6-1.5-1a5 5 0 0 1-1-1.7 6.4 6.4 0 0 1-.2-2Zm-1.2 24.8h1.1v-9.6h3.8v-1h-8.6v1h3.7v9.6Zm19 0-2.7-3.6c.8-.3 1.4-.7 1.8-1.3.4-.5.7-1.2.7-2 0-1.2-.4-2-1.2-2.7-.7-.7-1.8-1-3.2-1h-4v10.6H56V32h3.7l2.4 3.4h1.2Zm-4.6-4.3H56v-5.3h2.8c1 0 1.8.2 2.4.7.5.4.8 1 .8 2a3 3 0 0 1-.8 2c-.6.4-1.4.6-2.4.6Zm18.7 4.3h1.2l-4.9-10.6h-1.1l-4.9 10.6H69l1.3-2.8h5.9l1.3 2.8Zm-6.8-3.7 2.6-5.7 2.5 5.7h-5Zm13.5 3.7h4.3c1.2 0 2.1-.2 3-.7a5 5 0 0 0 2-1.8c.5-.8.7-1.8.7-2.8 0-1-.2-2-.7-2.8a5 5 0 0 0-2-1.8c-.9-.5-1.8-.7-3-.7h-4.3v10.6Zm1.1-1v-8.6h3.2c1 0 1.7.2 2.4.5.7.4 1.3 1 1.7 1.5a5.6 5.6 0 0 1 0 4.6 3.8 3.8 0 0 1-1.7 1.5 5 5 0 0 1-2.4.5h-3.2Zm16.4 0v-3.9h5.5v-1h-5.5v-3.7h6.1v-1h-7.3v10.6h7.5v-1h-6.3Zm15.7 1.1c.9 0 1.6-.1 2.2-.4.6-.2 1-.6 1.3-1 .3-.5.5-1 .5-1.5 0-.6-.2-1.1-.5-1.5a3 3 0 0 0-1.3-.9c-.4-.2-1-.4-1.8-.5a17.9 17.9 0 0 1-1.6-.5 2.4 2.4 0 0 1-1-.6c-.2-.3-.3-.6-.3-1 0-.6.2-1 .7-1.4.4-.4 1.1-.6 2-.6l1.5.3 1.5.6.4-.9a6 6 0 0 0-1.5-.6 6.7 6.7 0 0 0-1.8-.3c-.9 0-1.6.1-2.2.4-.6.2-1 .6-1.3 1a2.6 2.6 0 0 0-.4 1.5c0 .7.1 1.2.5 1.5.3.4.7.7 1.2.9l1.9.6 1.5.4c.3.1.7.3 1 .6.3.2.4.6.4 1a1.6 1.6 0 0 1-.7 1.4 4 4 0 0 1-2.1.5 6 6 0 0 1-2-.4 4 4 0 0 1-1.5-.9l-.5.9c.4.4 1 .7 1.7 1a5 5 0 0 0 2.2.4Z">
+          </path>
+          <path class="flag-red" d="M32.8 17v-2.7l-13 10.2-8.5-3.7L.5 28.2v2.5l10.8-7.5 8.6 3.7 12.9-10Zm-21.5 1.5 8.6 3.8 12.9-10V9.7L20 20l-8.7-4m0-2.1 8.6 3.7 12.9-10V5.2L20 15.3l-8.6-3.7m0-2.3 8.6 3.8L32.8 3V.5l-13 10.2-8.5-3.8m0 18.5L.5 32.8v2.5l10.8-7.6 8.6 3.8 12.9-10V19L20 29.1l-8.6-3.7Z">
+          </path>
+          <path class="flag-blue" d="m.5 26.1 10.8-7.5v-2.4L.5 23.6V26m10.8-14.5L.5 19v2.5L11.3 14m0-7L.5 14.3v2.5l10.8-7.5">
+          </path>
+         </g>
+        </svg>
+       </a>
+      </div>
+      <div class="powered-by">
+       <a aria-label="Go to 2iQ Research home page" href="https://www.2iqresearch.com/">
+        <div class="svg-image logo-powered-by" style="background-image:url('/_next/static/media/powered-by-2iq.45e9fce4.svg');width:60px;height:37px">
+        </div>
+       </a>
+      </div>
+      <div class="disclaimer disclaimer--restricted-data">
+       <p>
+        *The historical data available on our website is restricted to the past 3 years.
+       </p>
+      </div>
+      <div class="copyright">
+       <p>
+        ©2023 2iQ Research
+       </p>
+      </div>
+      <nav class="footer-nav">
+       <a class="follow-us--link" href="https://twitter.com/capitol2iq" target="twitter">
+        <span>
+         Follow
+        </span>
+       </a>
+       <a href="/about-us">
+        <span>
+         About Us
+        </span>
+       </a>
+       <a href="https://static.2iq.eu/press/capitoltrades-presskit.zip">
+        <span>
+         Download PressKit
+        </span>
+       </a>
+       <a href="/sitemap">
+        <span>
+         Sitemap
+        </span>
+       </a>
+       <a href="/privacy-policy">
+        <span>
+         Privacy Policy
+        </span>
+       </a>
+       <a href="/terms-and-conditions">
+        <span>
+         Terms &amp; Conditions
+        </span>
+       </a>
+       <a href="/imprint">
+        <span>
+         Imprint
+        </span>
+       </a>
+       <a href="/disclaimer">
+        <span>
+         Disclaimer
+        </span>
+       </a>
+      </nav>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script id="__NEXT_DATA__" type="application/json">
+   {"props":{"pageProps":{"dehydratedState":{"mutations":[],"queries":[{"state":{"data":{"data":[{"_txId":20003767339,"_politicianId":"K000398","_assetId":100006528,"_issuerId":431125,"pubDate":"2023-09-19T13:05:04Z","filingDate":"2023-09-18","txDate":"2023-04-19","txType":"buy","txTypeExtended":null,"hasCapitalGains":false,"owner":"not-disclosed","chamber":"house","price":79.74,"size":101,"sizeRangeHigh":189,"sizeRangeLow":13,"value":8000,"filingId":204851864,"filingURL":"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023717.pdf","reportingGap":152,"comment":"Subholding Of: Kean Family Partnership","committees":["hsfa","hspw","hssy"],"asset":{"assetType":"stock","assetTicker":"CCK:US","instrument":null},"issuer":{"_stateId":"pa","c2iq":"KSMVU1B4","country":"us","issuerName":"Crown Holdings Inc","issuerTicker":"CCK:US","sector":"materials"},"politician":{"_stateId":"nj","chamber":"house","dob":"1968-09-05","firstName":"Thomas","gender":"male","lastName":"Kean Jr","nickname":null,"party":"republican"},"labels":[]},{"_txId":20003767340,"_politicianId":"K000398","_assetId":100006597,"_issuerId":431181,"pubDate":"2023-09-19T13:05:04Z","filingDate":"2023-09-18","txDate":"2023-07-31","txType":"buy","txTypeExtended":null,"hasCapitalGains":false,"owner":"not-disclosed","chamber":"house","price":255.06,"size":32,"sizeRangeHigh":59,"sizeRangeLow":4,"value":8000,"filingId":204851864,"filingURL":"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023717.pdf","reportingGap":49,"comment":"Subholding Of: Kean Family Partnership","committees":["hsfa","hspw","hssy"],"asset":{"assetType":"stock","assetTicker":"DHR:US","instrument":null},"issuer":{"_stateId":"dc","c2iq":"1TMVU1B8","country":"us","issuerName":"Danaher Corp","issuerTicker":"DHR:US","sector":"health-care"},"politician":{"_stateId":"nj","chamber":"house","dob":"1968-09-05","firstName":"Thomas","gender":"male","lastName":"Kean Jr","nickname":null,"party":"republican"},"labels":[]},{"_txId":20003767341,"_politicianId":"K000398","_assetId":100007219,"_issuerId":431675,"pubDate":"2023-09-19T13:05:04Z","filingDate":"2023-09-18","txDate":"2023-05-04","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"not-disclosed","chamber":"house","price":53.23,"size":151,"sizeRangeHigh":282,"sizeRangeLow":19,"value":8000,"filingId":204851864,"filingURL":"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023717.pdf","reportingGap":137,"comment":"Subholding Of: Kean Family Partnership","committees":["hsfa","hspw","hssy"],"asset":{"assetType":"stock","assetTicker":"FIS:US","instrument":null},"issuer":{"_stateId":"fl","c2iq":"7TEVU1G7","country":"us","issuerName":"Fidelity National Information Services Inc","issuerTicker":"FIS:US","sector":"financials"},"politician":{"_stateId":"nj","chamber":"house","dob":"1968-09-05","firstName":"Thomas","gender":"male","lastName":"Kean Jr","nickname":null,"party":"republican"},"labels":[]},{"_txId":20003767342,"_politicianId":"K000398","_assetId":100007219,"_issuerId":431675,"pubDate":"2023-09-19T13:05:04Z","filingDate":"2023-09-18","txDate":"2023-06-12","txType":"buy","txTypeExtended":null,"hasCapitalGains":false,"owner":"not-disclosed","chamber":"house","price":54.48,"size":148,"sizeRangeHigh":276,"sizeRangeLow":19,"value":8000,"filingId":204851864,"filingURL":"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023717.pdf","reportingGap":98,"comment":"Subholding Of: Kean Family Partnership","committees":["hsfa","hspw","hssy"],"asset":{"assetType":"stock","assetTicker":"FIS:US","instrument":null},"issuer":{"_stateId":"fl","c2iq":"7TEVU1G7","country":"us","issuerName":"Fidelity National Information Services Inc","issuerTicker":"FIS:US","sector":"financials"},"politician":{"_stateId":"nj","chamber":"house","dob":"1968-09-05","firstName":"Thomas","gender":"male","lastName":"Kean Jr","nickname":null,"party":"republican"},"labels":[]},{"_txId":20003767343,"_politicianId":"K000398","_assetId":100007609,"_issuerId":431998,"pubDate":"2023-09-19T13:05:04Z","filingDate":"2023-09-18","txDate":"2023-06-12","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"not-disclosed","chamber":"house","price":100.7,"size":80,"sizeRangeHigh":149,"sizeRangeLow":10,"value":8000,"filingId":204851864,"filingURL":"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023717.pdf","reportingGap":98,"comment":"Subholding Of: Kean Family Partnership","committees":["hsfa","hspw","hssy"],"asset":{"assetType":"stock","assetTicker":"GPN:US","instrument":null},"issuer":{"_stateId":"ga","c2iq":"3SZVU1F4","country":"us","issuerName":"GLOBAL PAYMENTS Inc","issuerTicker":"GPN:US","sector":"financials"},"politician":{"_stateId":"nj","chamber":"house","dob":"1968-09-05","firstName":"Thomas","gender":"male","lastName":"Kean Jr","nickname":null,"party":"republican"},"labels":[]},{"_txId":20003767344,"_politicianId":"K000398","_assetId":100008637,"_issuerId":432796,"pubDate":"2023-09-19T13:05:04Z","filingDate":"2023-09-18","txDate":"2023-04-03","txType":"buy","txTypeExtended":null,"hasCapitalGains":false,"owner":"not-disclosed","chamber":"house","price":130.16,"size":62,"sizeRangeHigh":116,"sizeRangeLow":8,"value":8000,"filingId":204851864,"filingURL":"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023717.pdf","reportingGap":168,"comment":"Subholding Of: Kean Family Partnership","committees":["hsfa","hspw","hssy"],"asset":{"assetType":"stock","assetTicker":"JPM:US","instrument":null},"issuer":{"_stateId":"ny","c2iq":"Q6MVU1B6","country":"us","issuerName":"JPMorgan Chase \u0026 Co","issuerTicker":"JPM:US","sector":"financials"},"politician":{"_stateId":"nj","chamber":"house","dob":"1968-09-05","firstName":"Thomas","gender":"male","lastName":"Kean Jr","nickname":null,"party":"republican"},"labels":[]},{"_txId":10000061369,"_politicianId":"B001319","_assetId":100018692,"_issuerId":2334532,"pubDate":"2023-09-18T21:30:09Z","filingDate":"2023-09-18","txDate":"2023-08-25","txType":"buy","txTypeExtended":null,"hasCapitalGains":false,"owner":"spouse","chamber":"senate","price":null,"size":null,"sizeRangeHigh":null,"sizeRangeLow":null,"value":175000,"filingId":100114579,"filingURL":"https://efdsearch.senate.gov/search/view/ptr/026ff795-7e4d-446b-aff2-8d01be09e318/","reportingGap":24,"comment":"Company: Mack Bayou Townhomes Holdings, LLC  (Daphne, AL) Description: Investment and development of residential property in Florida","committees":["ssap","ssbk","ssra"],"asset":{"assetType":"non-public-stock","assetTicker":null,"instrument":null},"issuer":{"_stateId":null,"c2iq":null,"country":null,"issuerName":"MACK BAYOU TOWNHOMES HOLDINGS LLC","issuerTicker":null,"sector":null},"politician":{"_stateId":"al","chamber":"senate","dob":"1982-02-02","firstName":"Katie","gender":"female","lastName":"Britt","nickname":null,"party":"republican"},"labels":[]},{"_txId":10000061336,"_politicianId":"S001198","_assetId":100012671,"_issuerId":436024,"pubDate":"2023-09-18T15:15:09Z","filingDate":"2023-09-18","txDate":"2023-08-22","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"joint","chamber":"senate","price":181.82,"size":45,"sizeRangeHigh":83,"sizeRangeLow":6,"value":8000,"filingId":100114578,"filingURL":"https://efdsearch.senate.gov/search/view/ptr/58c402ff-7995-4e0a-809d-b08544832300/","reportingGap":27,"comment":null,"committees":["ssas","sscm","ssev","ssva"],"asset":{"assetType":"stock","assetTicker":"ZTS:US","instrument":"CLASS A"},"issuer":{"_stateId":"nj","c2iq":"M87VU1C6","country":"us","issuerName":"Zoetis Inc","issuerTicker":"ZTS:US","sector":"health-care"},"politician":{"_stateId":"ak","chamber":"senate","dob":"1964-11-13","firstName":"Daniel","gender":"male","lastName":"Sullivan","nickname":"Dan","party":"republican"},"labels":[]},{"_txId":10000061337,"_politicianId":"S001198","_assetId":100011909,"_issuerId":435443,"pubDate":"2023-09-18T15:15:09Z","filingDate":"2023-09-18","txDate":"2023-08-22","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"joint","chamber":"senate","price":430.58,"size":19,"sizeRangeHigh":35,"sizeRangeLow":3,"value":8000,"filingId":100114578,"filingURL":"https://efdsearch.senate.gov/search/view/ptr/58c402ff-7995-4e0a-809d-b08544832300/","reportingGap":27,"comment":null,"committees":["ssas","sscm","ssev","ssva"],"asset":{"assetType":"stock","assetTicker":"ULTA:US","instrument":null},"issuer":{"_stateId":"il","c2iq":"2XKVU1G3","country":"us","issuerName":"Ulta Beauty Inc","issuerTicker":"ULTA:US","sector":"consumer-discretionary"},"politician":{"_stateId":"ak","chamber":"senate","dob":"1964-11-13","firstName":"Daniel","gender":"male","lastName":"Sullivan","nickname":"Dan","party":"republican"},"labels":[]},{"_txId":10000061338,"_politicianId":"S001198","_assetId":100011780,"_issuerId":435338,"pubDate":"2023-09-18T15:15:09Z","filingDate":"2023-09-18","txDate":"2023-08-22","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"joint","chamber":"senate","price":215,"size":38,"sizeRangeHigh":70,"sizeRangeLow":5,"value":8000,"filingId":100114578,"filingURL":"https://efdsearch.senate.gov/search/view/ptr/58c402ff-7995-4e0a-809d-b08544832300/","reportingGap":27,"comment":null,"committees":["ssas","sscm","ssev","ssva"],"asset":{"assetType":"stock","assetTicker":"TSCO:US","instrument":null},"issuer":{"_stateId":"tn","c2iq":"7SXVU1C6","country":"us","issuerName":"Tractor Supply Co","issuerTicker":"TSCO:US","sector":"consumer-discretionary"},"politician":{"_stateId":"ak","chamber":"senate","dob":"1964-11-13","firstName":"Daniel","gender":"male","lastName":"Sullivan","nickname":"Dan","party":"republican"},"labels":[]},{"_txId":10000061339,"_politicianId":"S001198","_assetId":100011709,"_issuerId":435281,"pubDate":"2023-09-18T15:15:09Z","filingDate":"2023-09-18","txDate":"2023-08-22","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"joint","chamber":"senate","price":89.1,"size":366,"sizeRangeHigh":562,"sizeRangeLow":169,"value":32500,"filingId":100114578,"filingURL":"https://efdsearch.senate.gov/search/view/ptr/58c402ff-7995-4e0a-809d-b08544832300/","reportingGap":27,"comment":null,"committees":["ssas","sscm","ssev","ssva"],"asset":{"assetType":"stock","assetTicker":"TJX:US","instrument":null},"issuer":{"_stateId":"ma","c2iq":"U64VU1C3","country":"us","issuerName":"The TJX Companies Inc","issuerTicker":"TJX:US","sector":"consumer-discretionary"},"politician":{"_stateId":"ak","chamber":"senate","dob":"1964-11-13","firstName":"Daniel","gender":"male","lastName":"Sullivan","nickname":"Dan","party":"republican"},"labels":[]},{"_txId":10000061340,"_politicianId":"S001198","_assetId":100011672,"_issuerId":435244,"pubDate":"2023-09-18T15:15:09Z","filingDate":"2023-09-18","txDate":"2023-08-22","txType":"sell","txTypeExtended":null,"hasCapitalGains":false,"owner":"joint","chamber":"senate","price":527.05,"size":16,"sizeRangeHigh":29,"sizeRangeLow":2,"value":8000,"filingId":100114578,"filingURL":"https://efdsearch.senate.gov/search/view/ptr/58c402ff-7995-4e0a-809d-b08544832300/","reportingGap":27,"comment":null,"committees":["ssas","sscm","ssev","ssva"],"asset":{"assetType":"stock","assetTicker":"TMO:US","instrument":null},"issuer":{"_stateId":"ma","c2iq":"778VU1C4","country":"us","issuerName":"Thermo Fisher Scientific Inc","issuerTicker":"TMO:US","sector":"health-care"},"politician":{"_stateId":"ak","chamber":"senate","dob":"1964-11-13","firstName":"Daniel","gender":"male","lastName":"Sullivan","nickname":"Dan","party":"republican"},"labels":[]}],"meta":{"paging":{"page":1,"size":12,"totalPages":3364,"totalItems":40365}}},"dataUpdateCount":1,"dataUpdatedAt":1695252168532,"error":null,"errorUpdateCount":0,"errorUpdatedAt":0,"fetchFailureCount":0,"fetchMeta":null,"isFetching":false,"isInvalidated":false,"isPaused":false,"status":"success"},"queryKey":["fetchTrades",{"page":1,"pageSize":12}],"queryHash":"[\"fetchTrades\",{\"page\":1,\"pageSize\":12}]"},{"state":{"data":{"data":{"countTrades":40365,"countFilings":2061,"volume":1913657057,"countPoliticians":228,"countIssuers":3600}},"dataUpdateCount":1,"dataUpdatedAt":1695252168546,"error":null,"errorUpdateCount":0,"errorUpdatedAt":0,"fetchFailureCount":0,"fetchMeta":null,"isFetching":false,"isInvalidated":false,"isPaused":false,"status":"success"},"queryKey":["fetchTradeDigest",{"metric":["countTrades","countFilings","volume","countPoliticians","countIssuers"]}],"queryHash":"[\"fetchTradeDigest\",{\"metric\":[\"countTrades\",\"countFilings\",\"volume\",\"countPoliticians\",\"countIssuers\"]}]"},{"state":{"data":{"meta":{"paging":{"page":1,"size":15,"totalItems":3600,"totalPages":240}},"data":[{"_issuerId":429789,"_stateId":"ca","c2iq":"B9LVU1B7","country":"us","issuerName":"Apple Inc","issuerTicker":"AAPL:US","performance":{"eodPrices":[["2023-09-19",179.07],["2023-09-18",177.97],["2023-09-15",175.01],["2023-09-14",175.74],["2023-09-13",174.21],["2023-09-12",176.3],["2023-09-11",179.36],["2023-09-08",178.18],["2023-09-07",177.56],["2023-09-06",182.91],["2023-09-05",189.7],["2023-09-01",189.46],["2023-08-31",187.87],["2023-08-30",187.65],["2023-08-29",184.12],["2023-08-28",180.19],["2023-08-25",178.61],["2023-08-24",176.38],["2023-08-23",181.12],["2023-08-22",177.23],["2023-08-21",175.84]],"mcap":2736146942200,"trailing1":1.1,"trailing1Change":0.0062,"trailing7":4.86,"trailing7Change":0.0279,"trailing30":3.23,"trailing30Change":0.0184,"trailing90":-7.93,"trailing90Change":-0.0424,"trailing365":22.17,"trailing365Change":0.1413,"wtd":4.06,"wtdChange":0.0232,"mtd":-8.8,"mtdChange":-0.0468,"qtd":-14.9,"qtdChange":-0.0768,"ytd":54,"ytdChange":0.4318},"sector":"information-technology","stats":{"countPoliticians":54,"countTrades":283,"dateFirstTraded":"2020-09-22","dateLastTraded":"2023-08-22","volume":19336774}},{"_issuerId":433382,"_stateId":"wa","c2iq":"NH4VU1C8","country":"us","issuerName":"Microsoft Corp","issuerTicker":"MSFT:US","performance":{"eodPrices":[["2023-09-19",328.65],["2023-09-18",329.06],["2023-09-15",330.22],["2023-09-14",338.7],["2023-09-13",336.06],["2023-09-12",331.77],["2023-09-11",337.94],["2023-09-08",334.27],["2023-09-07",329.91],["2023-09-06",332.88],["2023-09-05",333.55],["2023-09-01",328.66],["2023-08-31",327.76],["2023-08-30",328.79],["2023-08-29",328.41],["2023-08-28",323.7],["2023-08-25",322.98],["2023-08-24",319.97],["2023-08-23",327],["2023-08-22",322.46],["2023-08-21",321.88]],"mcap":2453456668100,"trailing1":-0.41,"trailing1Change":-0.0012,"trailing7":-7.41,"trailing7Change":-0.022,"trailing30":6.77,"trailing30Change":0.021,"trailing90":-11.06,"trailing90Change":-0.0326,"trailing365":86.2,"trailing365Change":0.3555,"wtd":-1.57,"wtdChange":-0.0048,"mtd":0.89,"mtdChange":0.0027,"qtd":-11.89,"qtdChange":-0.0349,"ytd":89.07,"ytdChange":0.3718},"sector":"information-technology","stats":{"countPoliticians":43,"countTrades":457,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-08-31","volume":257382065}},{"_issuerId":429622,"_stateId":"ca","c2iq":"WZ0VU1G9","country":"us","issuerName":"Alphabet Inc","issuerTicker":"GOOGL:US","performance":{"eodPrices":[["2023-09-19",138.04],["2023-09-18",138.21],["2023-09-15",137.4],["2023-09-14",138.1],["2023-09-13",136.71],["2023-09-12",135.34],["2023-09-11",136.92],["2023-09-08",136.38],["2023-09-07",135.26],["2023-09-06",134.46],["2023-09-05",135.77],["2023-09-01",135.66],["2023-08-31",136.17],["2023-08-30",135.88],["2023-08-29",134.57],["2023-08-28",131.01],["2023-08-25",129.88],["2023-08-24",129.78],["2023-08-23",132.37],["2023-08-22",129.08],["2023-08-21",128.37]],"mcap":1737834900000,"trailing1":-0.17,"trailing1Change":-0.0012,"trailing7":1.33,"trailing7Change":0.0097,"trailing30":9.67,"trailing30Change":0.0753,"trailing90":14.89,"trailing90Change":0.1209,"trailing365":36.9,"trailing365Change":0.3648,"wtd":0.64,"wtdChange":0.0047,"mtd":1.87,"mtdChange":0.0137,"qtd":18.34,"qtdChange":0.1532,"ytd":48.92,"ytdChange":0.5489},"sector":"communication-services","stats":{"countPoliticians":43,"countTrades":399,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-08-29","volume":23759211}},{"_issuerId":429648,"_stateId":"wa","c2iq":"KPVVU125","country":"us","issuerName":"Amazon.com Inc","issuerTicker":"AMZN:US","performance":{"eodPrices":[["2023-09-19",137.63],["2023-09-18",139.98],["2023-09-15",140.39],["2023-09-14",144.72],["2023-09-13",144.85],["2023-09-12",141.23],["2023-09-11",143.1],["2023-09-08",138.23],["2023-09-07",137.85],["2023-09-06",135.36],["2023-09-05",137.27],["2023-09-01",138.12],["2023-08-31",138.01],["2023-08-30",135.07],["2023-08-29",134.91],["2023-08-28",133.14],["2023-08-25",133.26],["2023-08-24",131.84],["2023-08-23",135.52],["2023-08-22",134.25],["2023-08-21",134.68]],"mcap":1448509062900,"trailing1":-2.35,"trailing1Change":-0.0168,"trailing7":-7.22,"trailing7Change":-0.0498,"trailing30":2.95,"trailing30Change":0.0219,"trailing90":7.48,"trailing90Change":0.0575,"trailing365":15.44,"trailing365Change":0.1264,"wtd":-2.76,"wtdChange":-0.0197,"mtd":-0.38,"mtdChange":-0.0028,"qtd":7.27,"qtdChange":0.0558,"ytd":51.81,"ytdChange":0.6037},"sector":"consumer-discretionary","stats":{"countPoliticians":43,"countTrades":327,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-08-29","volume":10876581}},{"_issuerId":432796,"_stateId":"ny","c2iq":"Q6MVU1B6","country":"us","issuerName":"JPMorgan Chase \u0026 Co","issuerTicker":"JPM:US","performance":{"eodPrices":[["2023-09-19",148.93],["2023-09-18",149.12],["2023-09-15",148.81],["2023-09-14",149.25],["2023-09-13",146.41],["2023-09-12",146.34],["2023-09-11",144.46],["2023-09-08",143.83],["2023-09-07",143.72],["2023-09-06",144.96],["2023-09-05",145.2],["2023-09-01",146.82],["2023-08-31",146.33],["2023-08-30",148.16],["2023-08-29",148.76],["2023-08-28",147.56],["2023-08-25",147.05],["2023-08-24",147.23],["2023-08-23",147.37],["2023-08-22",146.38],["2023-08-21",149.48]],"mcap":434866589400,"trailing1":-0.19,"trailing1Change":-0.0013,"trailing7":2.52,"trailing7Change":0.0172,"trailing30":-0.55,"trailing30Change":-0.0037,"trailing90":9.35,"trailing90Change":0.067,"trailing365":33.1,"trailing365Change":0.2858,"wtd":0.12,"wtdChange":0.0008,"mtd":2.6,"mtdChange":0.0178,"qtd":3.49,"qtdChange":0.024,"ytd":13.81,"ytdChange":0.1022},"sector":"financials","stats":{"countPoliticians":41,"countTrades":210,"dateFirstTraded":"2020-09-28","dateLastTraded":"2023-08-29","volume":5069463}},{"_issuerId":429914,"_stateId":"tx","c2iq":"9X9VU1C6","country":"us","issuerName":"AT\u0026T Inc","issuerTicker":"T:US","performance":{"eodPrices":[["2023-09-19",15.21],["2023-09-18",15.09],["2023-09-15",15.23],["2023-09-14",15.06],["2023-09-13",14.62],["2023-09-12",14.46],["2023-09-11",14.52],["2023-09-08",14.4],["2023-09-07",14.61],["2023-09-06",14.61],["2023-09-05",14.48],["2023-09-01",14.65],["2023-08-31",14.79],["2023-08-30",14.73],["2023-08-29",14.77],["2023-08-28",14.21],["2023-08-25",14.11],["2023-08-24",14.15],["2023-08-23",14.16],["2023-08-22",14.26],["2023-08-21",14.1]],"mcap":108879270100,"trailing1":0.12,"trailing1Change":0.008,"trailing7":0.59,"trailing7Change":0.0404,"trailing30":1.11,"trailing30Change":0.0787,"trailing90":-0.37,"trailing90Change":-0.0237,"trailing365":-1.35,"trailing365Change":-0.0815,"wtd":-0.02,"wtdChange":-0.0013,"mtd":0.42,"mtdChange":0.0284,"qtd":-0.74,"qtdChange":-0.0464,"ytd":-3.53,"ytdChange":-0.1884},"sector":"communication-services","stats":{"countPoliticians":36,"countTrades":180,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-08-29","volume":5459273}},{"_issuerId":435673,"_stateId":"ny","c2iq":"SGLVU1B0","country":"us","issuerName":"Verizon Communications Inc","issuerTicker":"VZ:US","performance":{"eodPrices":[["2023-09-19",33.4],["2023-09-18",33.53],["2023-09-15",33.79],["2023-09-14",34.04],["2023-09-13",33.86],["2023-09-12",34.04],["2023-09-11",33.94],["2023-09-08",33.45],["2023-09-07",33.81],["2023-09-06",34.18],["2023-09-05",34.3],["2023-09-01",34.86],["2023-08-31",34.98],["2023-08-30",34.64],["2023-08-29",34.69],["2023-08-28",33.55],["2023-08-25",33.35],["2023-08-24",33.38],["2023-08-23",33.19],["2023-08-22",33.2],["2023-08-21",33]],"mcap":142054511500,"trailing1":-0.13,"trailing1Change":-0.0039,"trailing7":-0.46,"trailing7Change":-0.0136,"trailing30":0.4,"trailing30Change":0.0121,"trailing90":-2.45,"trailing90Change":-0.0683,"trailing365":-7.19,"trailing365Change":-0.1771,"wtd":-0.39,"wtdChange":-0.0115,"mtd":-1.58,"mtdChange":-0.0452,"qtd":-3.79,"qtdChange":-0.1019,"ytd":-6.72,"ytdChange":-0.1675},"sector":"communication-services","stats":{"countPoliticians":34,"countTrades":160,"dateFirstTraded":"2020-09-29","dateLastTraded":"2023-08-24","volume":4180018}},{"_issuerId":431303,"_stateId":"ca","c2iq":"JARVU1B0","country":"us","issuerName":"The Walt Disney Co","issuerTicker":"DIS:US","performance":{"eodPrices":[["2023-09-19",81.94],["2023-09-18",85.02],["2023-09-15",85.58],["2023-09-14",84.48],["2023-09-13",83.48],["2023-09-12",83.68],["2023-09-11",82.52],["2023-09-08",81.58],["2023-09-07",80.57],["2023-09-06",80.98],["2023-09-05",81.19],["2023-09-01",81.64],["2023-08-31",83.68],["2023-08-30",84.28],["2023-08-29",84.4],["2023-08-28",84.16],["2023-08-25",83.36],["2023-08-24",82.47],["2023-08-23",85.83],["2023-08-22",85.79],["2023-08-21",85.88]],"mcap":156592486800,"trailing1":-3.08,"trailing1Change":-0.0362,"trailing7":-1.54,"trailing7Change":-0.0184,"trailing30":-3.94,"trailing30Change":-0.0459,"trailing90":-6.55,"trailing90Change":-0.074,"trailing365":-25.63,"trailing365Change":-0.2383,"wtd":-3.64,"wtdChange":-0.0425,"mtd":-1.74,"mtdChange":-0.0208,"qtd":-7.34,"qtdChange":-0.0822,"ytd":-7.03,"ytdChange":-0.079},"sector":"communication-services","stats":{"countPoliticians":33,"countTrades":196,"dateFirstTraded":"2020-09-23","dateLastTraded":"2023-08-29","volume":7094595}},{"_issuerId":435211,"_stateId":"tx","c2iq":"Q2TVU1G7","country":"us","issuerName":"Tesla Inc","issuerTicker":"TSLA:US","performance":{"eodPrices":[["2023-09-19",266.5],["2023-09-18",265.28],["2023-09-15",274.39],["2023-09-14",276.04],["2023-09-13",271.3],["2023-09-12",267.48],["2023-09-11",273.58],["2023-09-08",248.5],["2023-09-07",251.49],["2023-09-06",251.92],["2023-09-05",256.49],["2023-09-01",245.01],["2023-08-31",258.08],["2023-08-30",256.9],["2023-08-29",257.18],["2023-08-28",238.82],["2023-08-25",238.59],["2023-08-24",230.04],["2023-08-23",236.86],["2023-08-22",233.19],["2023-08-21",231.28]],"mcap":870912213700,"trailing1":1.22,"trailing1Change":0.0046,"trailing7":-4.8,"trailing7Change":-0.0177,"trailing30":35.22,"trailing30Change":0.1523,"trailing90":1.89,"trailing90Change":0.0071,"trailing365":-42.23,"trailing365Change":-0.1368,"wtd":-7.89,"wtdChange":-0.0288,"mtd":8.42,"mtdChange":0.0326,"qtd":4.73,"qtdChange":0.0181,"ytd":158.4,"ytdChange":1.4653},"sector":"consumer-discretionary","stats":{"countPoliticians":32,"countTrades":182,"dateFirstTraded":"2020-10-26","dateLastTraded":"2023-08-29","volume":9893603}},{"_issuerId":432782,"_stateId":"nj","c2iq":"P0PVU1B1","country":"us","issuerName":"Johnson \u0026 Johnson","issuerTicker":"JNJ:US","performance":{"eodPrices":[["2023-09-19",162.2],["2023-09-18",162.47],["2023-09-15",161.45],["2023-09-14",163.74],["2023-09-13",163.99],["2023-09-12",163.58],["2023-09-11",162.66],["2023-09-08",160.56],["2023-09-07",160.03],["2023-09-06",158.01],["2023-09-05",160.68],["2023-09-01",160.48],["2023-08-31",161.68],["2023-08-30",163.73],["2023-08-29",164.31],["2023-08-28",164.29],["2023-08-25",166.25],["2023-08-24",165.09],["2023-08-23",164.53],["2023-08-22",166.02],["2023-08-21",167.35]],"mcap":386630727800,"trailing1":-0.27,"trailing1Change":-0.0017,"trailing7":-1.79,"trailing7Change":-0.0109,"trailing30":-5.15,"trailing30Change":-0.0308,"trailing90":-3.42,"trailing90Change":-0.0206,"trailing365":-2.77,"trailing365Change":-0.0168,"wtd":0.75,"wtdChange":0.0046,"mtd":0.52,"mtdChange":0.0032,"qtd":-3.32,"qtdChange":-0.0201,"ytd":-15.99,"ytdChange":-0.0897},"sector":"health-care","stats":{"countPoliticians":32,"countTrades":149,"dateFirstTraded":"2020-09-29","dateLastTraded":"2023-08-22","volume":3304388}},{"_issuerId":431610,"_stateId":"ca","c2iq":"B7WVU1G5","country":"us","issuerName":"Meta Platforms Inc","issuerTicker":"META:US","performance":{"eodPrices":[["2023-09-19",305.07],["2023-09-18",302.55],["2023-09-15",300.31],["2023-09-14",311.72],["2023-09-13",305.06],["2023-09-12",301.66],["2023-09-11",307.56],["2023-09-08",297.89],["2023-09-07",298.67],["2023-09-06",299.17],["2023-09-05",300.15],["2023-09-01",296.38],["2023-08-31",295.89],["2023-08-30",295.1],["2023-08-29",297.99],["2023-08-28",290.26],["2023-08-25",285.5],["2023-08-24",286.75],["2023-08-23",294.24],["2023-08-22",287.6],["2023-08-21",289.9]],"mcap":772872710700,"trailing1":2.52,"trailing1Change":0.0083,"trailing7":0.01,"trailing7Change":0,"trailing30":15.17,"trailing30Change":0.0523,"trailing90":20.19,"trailing90Change":0.0709,"trailing365":158.98,"trailing365Change":1.0882,"wtd":4.76,"wtdChange":0.0159,"mtd":9.18,"mtdChange":0.031,"qtd":18.09,"qtdChange":0.063,"ytd":180.33,"ytdChange":1.4456},"sector":"communication-services","stats":{"countPoliticians":31,"countTrades":308,"dateFirstTraded":"2020-09-23","dateLastTraded":"2023-08-21","volume":10978500}},{"_issuerId":433770,"_stateId":"ca","c2iq":"SH9VU1F2","country":"us","issuerName":"NVIDIA Corporation","issuerTicker":"NVDA:US","performance":{"eodPrices":[["2023-09-19",435.2],["2023-09-18",439.66],["2023-09-15",439],["2023-09-14",455.81],["2023-09-13",454.85],["2023-09-12",448.7],["2023-09-11",451.78],["2023-09-08",455.72],["2023-09-07",462.41],["2023-09-06",470.61],["2023-09-05",485.48],["2023-09-01",485.09],["2023-08-31",493.55],["2023-08-30",492.64],["2023-08-29",487.84],["2023-08-28",468.35],["2023-08-25",460.18],["2023-08-24",471.63],["2023-08-23",471.16],["2023-08-22",456.68],["2023-08-21",469.67]],"mcap":1084330000000,"trailing1":-4.46,"trailing1Change":-0.0101,"trailing7":-19.65,"trailing7Change":-0.0432,"trailing30":-34.47,"trailing30Change":-0.0734,"trailing90":4.95,"trailing90Change":0.0115,"trailing365":303.44,"trailing365Change":2.303,"wtd":-3.8,"wtdChange":-0.0087,"mtd":-58.35,"mtdChange":-0.1182,"qtd":12.18,"qtdChange":0.0288,"ytd":292.05,"ytdChange":2.0402},"sector":"information-technology","stats":{"countPoliticians":31,"countTrades":226,"dateFirstTraded":"2020-10-13","dateLastTraded":"2023-08-14","volume":16155609}},{"_issuerId":432464,"_stateId":"ca","c2iq":"AQTVU1B7","country":"us","issuerName":"Intel Corp","issuerTicker":"INTC:US","performance":{"eodPrices":[["2023-09-19",36.34],["2023-09-18",37.99],["2023-09-15",37.88],["2023-09-14",38.67],["2023-09-13",38.71],["2023-09-12",38.86],["2023-09-11",38.59],["2023-09-08",38.01],["2023-09-07",38.18],["2023-09-06",36.98],["2023-09-05",36.71],["2023-09-01",36.61],["2023-08-31",35.14],["2023-08-30",34.53],["2023-08-29",34.31],["2023-08-28",33.62],["2023-08-25",33.25],["2023-08-24",32.59],["2023-08-23",33.98],["2023-08-22",32.89],["2023-08-21",33.14]],"mcap":159185880100,"trailing1":-1.65,"trailing1Change":-0.0434,"trailing7":-2.37,"trailing7Change":-0.0612,"trailing30":3.2,"trailing30Change":0.0966,"trailing90":3.63,"trailing90Change":0.111,"trailing365":7.38,"trailing365Change":0.2548,"wtd":-1.54,"wtdChange":-0.0407,"mtd":1.2,"mtdChange":0.0341,"qtd":2.9,"qtdChange":0.0867,"ytd":9.61,"ytdChange":0.3595},"sector":"information-technology","stats":{"countPoliticians":31,"countTrades":136,"dateFirstTraded":"2020-09-28","dateLastTraded":"2023-08-18","volume":4614000}},{"_issuerId":433981,"_stateId":"ca","c2iq":"Q83VU1C5","country":"us","issuerName":"PayPal Holdings Inc","issuerTicker":"PYPL:US","performance":{"eodPrices":[["2023-09-19",62.19],["2023-09-18",62.94],["2023-09-15",64.21],["2023-09-14",64.44],["2023-09-13",62.84],["2023-09-12",62.81],["2023-09-11",61.93],["2023-09-08",60.98],["2023-09-07",61.65],["2023-09-06",62.8],["2023-09-05",63.74],["2023-09-01",63.57],["2023-08-31",62.51],["2023-08-30",63.42],["2023-08-29",62.5],["2023-08-28",61.67],["2023-08-25",61.19],["2023-08-24",60.71],["2023-08-23",61.76],["2023-08-22",60.98],["2023-08-21",59.51]],"mcap":70504955800,"trailing1":-0.75,"trailing1Change":-0.0119,"trailing7":-0.65,"trailing7Change":-0.0103,"trailing30":2.68,"trailing30Change":0.045,"trailing90":-6.38,"trailing90Change":-0.093,"trailing365":-29.44,"trailing365Change":-0.3213,"wtd":-2.02,"wtdChange":-0.0315,"mtd":-0.32,"mtdChange":-0.0051,"qtd":-4.54,"qtdChange":-0.068,"ytd":-12.39,"ytdChange":-0.1661},"sector":"financials","stats":{"countPoliticians":27,"countTrades":237,"dateFirstTraded":"2020-09-25","dateLastTraded":"2023-08-29","volume":13398000}},{"_issuerId":434191,"_stateId":"oh","c2iq":"XWQVU1B7","country":"us","issuerName":"The Procter \u0026 Gamble Co","issuerTicker":"PG:US","performance":{"eodPrices":[["2023-09-19",153.6],["2023-09-18",154.05],["2023-09-15",153.47],["2023-09-14",154.77],["2023-09-13",153.09],["2023-09-12",152.03],["2023-09-11",154.75],["2023-09-08",152.93],["2023-09-07",153.59],["2023-09-06",152.14],["2023-09-05",152.44],["2023-09-01",154.51],["2023-08-31",154.34],["2023-08-30",154.04],["2023-08-29",153.87],["2023-08-28",153.78],["2023-08-25",153.54],["2023-08-24",152.54],["2023-08-23",153.25],["2023-08-22",151.83],["2023-08-21",151.77]],"mcap":361712522100,"trailing1":-0.45,"trailing1Change":-0.0029,"trailing7":0.51,"trailing7Change":0.0033,"trailing30":1.83,"trailing30Change":0.0121,"trailing90":3.65,"trailing90Change":0.0243,"trailing365":16.1,"trailing365Change":0.1171,"wtd":0.13,"wtdChange":0.0008,"mtd":-0.74,"mtdChange":-0.0048,"qtd":1.86,"qtdChange":0.0123,"ytd":2.03,"ytdChange":0.0134},"sector":"consumer-staples","stats":{"countPoliticians":27,"countTrades":170,"dateFirstTraded":"2020-11-03","dateLastTraded":"2023-08-16","volume":2414200}}]},"dataUpdateCount":1,"dataUpdatedAt":1695252168552,"error":null,"errorUpdateCount":0,"errorUpdatedAt":0,"fetchFailureCount":0,"fetchMeta":null,"isFetching":false,"isInvalidated":false,"isPaused":false,"status":"success"},"queryKey":["fetchIssuers",{}],"queryHash":"[\"fetchIssuers\",{}]"},{"state":{"data":{"data":[{"_politicianId":"A000055","countTrades":2,"firstName":"Robert","nickname":"Robert","lastName":"Aderholt","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2022-08-26","dateLastTraded":"2022-12-05","volume":16000}},{"_politicianId":"A000148","countTrades":1,"firstName":"Jacob","nickname":"Jake","lastName":"Auchincloss","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-03-22","dateLastTraded":"2022-03-22","volume":32500}},{"_politicianId":"A000372","countTrades":84,"firstName":"Richard","nickname":"Rick","lastName":"Allen","party":"republican","stats":{"countFilings":4,"countIssuers":25,"countTrades":84,"dateFirstTraded":"2020-09-25","dateLastTraded":"2023-08-31","volume":4273000}},{"_politicianId":"A000378","countTrades":97,"firstName":"Cynthia","nickname":"Cindy","lastName":"Axne","party":"democrat","stats":{"countFilings":12,"countIssuers":27,"countTrades":97,"dateFirstTraded":"2020-10-28","dateLastTraded":"2022-12-23","volume":776000}},{"_politicianId":"B000574","countTrades":203,"firstName":"Earl","nickname":null,"lastName":"Blumenauer","party":"democrat","stats":{"countFilings":43,"countIssuers":91,"countTrades":203,"dateFirstTraded":"2020-10-16","dateLastTraded":"2023-08-25","volume":3789500}},{"_politicianId":"B000575","countTrades":6,"firstName":"Roy","nickname":null,"lastName":"Blunt","party":"republican","stats":{"countFilings":5,"countIssuers":5,"countTrades":6,"dateFirstTraded":"2021-09-27","dateLastTraded":"2022-12-23","volume":188500}},{"_politicianId":"B000668","countTrades":2,"firstName":"Cliff","nickname":null,"lastName":"Bentz","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2022-11-21","dateLastTraded":"2023-04-03","volume":383000}},{"_politicianId":"B000740","countTrades":2,"firstName":"Stephanie","nickname":null,"lastName":"Bice","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2021-08-06","dateLastTraded":"2022-12-12","volume":40500}},{"_politicianId":"B001135","countTrades":5,"firstName":"Richard","nickname":null,"lastName":"Burr","party":"republican","stats":{"countFilings":1,"countIssuers":3,"countTrades":5,"dateFirstTraded":"2021-04-28","dateLastTraded":"2021-04-30","volume":265500}},{"_politicianId":"B001236","countTrades":283,"firstName":"John","nickname":null,"lastName":"Boozman","party":"republican","stats":{"countFilings":29,"countIssuers":88,"countTrades":283,"dateFirstTraded":"2020-09-22","dateLastTraded":"2023-08-29","volume":3779000}},{"_politicianId":"B001248","countTrades":82,"firstName":"Michael","nickname":null,"lastName":"Burgess","party":"republican","stats":{"countFilings":27,"countIssuers":24,"countTrades":82,"dateFirstTraded":"2021-10-14","dateLastTraded":"2023-08-22","volume":1955730}},{"_politicianId":"B001257","countTrades":2,"firstName":"Gus","nickname":null,"lastName":"Bilirakis","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2020-12-08","dateLastTraded":"2021-10-05","volume":16000}},{"_politicianId":"B001260","countTrades":33,"firstName":"Vernon","nickname":null,"lastName":"Buchanan","party":"republican","stats":{"countFilings":7,"countIssuers":27,"countTrades":33,"dateFirstTraded":"2020-12-08","dateLastTraded":"2022-02-15","volume":3405000}},{"_politicianId":"B001267","countTrades":3,"firstName":"Michael","nickname":null,"lastName":"Bennet","party":"democrat","stats":{"countFilings":3,"countIssuers":2,"countTrades":3,"dateFirstTraded":"2021-07-01","dateLastTraded":"2023-04-26","volume":790500}},{"_politicianId":"B001274","countTrades":27,"firstName":"Morris","nickname":"Mo","lastName":"Brooks","party":"republican","stats":{"countFilings":15,"countIssuers":19,"countTrades":27,"dateFirstTraded":"2020-10-28","dateLastTraded":"2022-12-08","volume":381000}},{"_politicianId":"B001275","countTrades":1,"firstName":"Larry","nickname":null,"lastName":"Bucshon","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-10-25","dateLastTraded":"2021-10-25","volume":8000}},{"_politicianId":"B001277","countTrades":288,"firstName":"Richard","nickname":null,"lastName":"Blumenthal","party":"democrat","stats":{"countFilings":26,"countIssuers":95,"countTrades":288,"dateFirstTraded":"2020-09-29","dateLastTraded":"2023-07-26","volume":51030000}},{"_politicianId":"B001291","countTrades":6,"firstName":"Brian","nickname":null,"lastName":"Babin","party":"republican","stats":{"countFilings":1,"countIssuers":4,"countTrades":6,"dateFirstTraded":"2022-03-29","dateLastTraded":"2022-08-02","volume":72500}},{"_politicianId":"B001292","countTrades":395,"firstName":"Donald","nickname":"Don","lastName":"Beyer","party":"democrat","stats":{"countFilings":28,"countIssuers":87,"countTrades":395,"dateFirstTraded":"2020-09-29","dateLastTraded":"2023-06-30","volume":4117956}},{"_politicianId":"B001297","countTrades":1,"firstName":"Kenneth","nickname":"Ken","lastName":"Buck","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-09-09","dateLastTraded":"2021-09-09","volume":8000}},{"_politicianId":"B001299","countTrades":29,"firstName":"James","nickname":"Jim","lastName":"Banks","party":"republican","stats":{"countFilings":11,"countIssuers":6,"countTrades":29,"dateFirstTraded":"2020-11-24","dateLastTraded":"2023-06-09","volume":330000}},{"_politicianId":"B001311","countTrades":7,"firstName":"James","nickname":"Dan","lastName":"Bishop","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":7,"dateFirstTraded":"2022-11-28","dateLastTraded":"2023-09-14","volume":4307500}},{"_politicianId":"B001316","countTrades":5,"firstName":"Eric","nickname":null,"lastName":"Burlison","party":"republican","stats":{"countFilings":1,"countIssuers":5,"countTrades":5,"dateFirstTraded":"2023-02-06","dateLastTraded":"2023-02-06","volume":113500}},{"_politicianId":"B001319","countTrades":1,"firstName":"Katie","nickname":null,"lastName":"Britt","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2023-08-25","dateLastTraded":"2023-08-25","volume":175000}},{"_politicianId":"C000127","countTrades":1,"firstName":"Maria","nickname":null,"lastName":"Cantwell","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-12-28","dateLastTraded":"2022-12-28","volume":32500}},{"_politicianId":"C000174","countTrades":576,"firstName":"Thomas","nickname":"Tom","lastName":"Carper","party":"democrat","stats":{"countFilings":37,"countIssuers":213,"countTrades":576,"dateFirstTraded":"2020-09-22","dateLastTraded":"2023-08-29","volume":7068000}},{"_politicianId":"C000266","countTrades":1,"firstName":"Steven","nickname":"Steve","lastName":"Chabot","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-12-01","dateLastTraded":"2021-12-01","volume":75000}},{"_politicianId":"C001035","countTrades":30,"firstName":"Susan","nickname":null,"lastName":"Collins","party":"republican","stats":{"countFilings":16,"countIssuers":28,"countTrades":30,"dateFirstTraded":"2020-10-08","dateLastTraded":"2022-12-20","volume":1469000}},{"_politicianId":"C001047","countTrades":94,"firstName":"Shelley","nickname":null,"lastName":"Moore Capito","party":"republican","stats":{"countFilings":22,"countIssuers":52,"countTrades":94,"dateFirstTraded":"2020-12-15","dateLastTraded":"2023-08-22","volume":1108500}},{"_politicianId":"C001053","countTrades":7,"firstName":"Thomas","nickname":"Tom","lastName":"Cole","party":"republican","stats":{"countFilings":6,"countIssuers":6,"countTrades":7,"dateFirstTraded":"2022-01-10","dateLastTraded":"2023-07-15","volume":896000}},{"_politicianId":"C001055","countTrades":9,"firstName":"Edward","nickname":"Ed","lastName":"Case","party":"democrat","stats":{"countFilings":2,"countIssuers":7,"countTrades":9,"dateFirstTraded":"2021-05-03","dateLastTraded":"2021-07-06","volume":364500}},{"_politicianId":"C001059","countTrades":1,"firstName":"James","nickname":"Jim","lastName":"Costa","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-03-16","dateLastTraded":"2022-03-16","volume":32500}},{"_politicianId":"C001062","countTrades":43,"firstName":"Kenneth","nickname":"Mike","lastName":"Conaway","party":"republican","stats":{"countFilings":5,"countIssuers":30,"countTrades":43,"dateFirstTraded":"2020-09-21","dateLastTraded":"2020-12-21","volume":1894500}},{"_politicianId":"C001066","countTrades":17,"firstName":"Katherine","nickname":"Kathy","lastName":"Castor","party":"democrat","stats":{"countFilings":7,"countIssuers":1,"countTrades":17,"dateFirstTraded":"2020-09-21","dateLastTraded":"2021-07-16","volume":136000}},{"_politicianId":"C001068","countTrades":22,"firstName":"Stephen","nickname":"Steve","lastName":"Cohen","party":"democrat","stats":{"countFilings":14,"countIssuers":19,"countTrades":22,"dateFirstTraded":"2021-11-18","dateLastTraded":"2023-06-29","volume":2040000}},{"_politicianId":"C001069","countTrades":58,"firstName":"Joseph","nickname":"Joe","lastName":"Courtney","party":"democrat","stats":{"countFilings":3,"countIssuers":56,"countTrades":58,"dateFirstTraded":"2020-10-09","dateLastTraded":"2022-04-05","volume":660000}},{"_politicianId":"C001075","countTrades":18,"firstName":"William","nickname":"Bill","lastName":"Cassidy","party":"republican","stats":{"countFilings":1,"countIssuers":18,"countTrades":18,"dateFirstTraded":"2020-11-05","dateLastTraded":"2020-11-05","volume":144000}},{"_politicianId":"C001078","countTrades":25,"firstName":"Gerald","nickname":"Gerry","lastName":"Connolly","party":"democrat","stats":{"countFilings":9,"countIssuers":3,"countTrades":25,"dateFirstTraded":"2020-10-22","dateLastTraded":"2023-08-15","volume":322500}},{"_politicianId":"C001080","countTrades":2,"firstName":"Judy","nickname":null,"lastName":"Chu","party":"democrat","stats":{"countFilings":2,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2020-12-23","dateLastTraded":"2022-01-26","volume":65000}},{"_politicianId":"C001088","countTrades":9,"firstName":"Christopher","nickname":"Chris","lastName":"Coons","party":"democrat","stats":{"countFilings":5,"countIssuers":1,"countTrades":9,"dateFirstTraded":"2021-03-01","dateLastTraded":"2023-02-03","volume":2249000}},{"_politicianId":"C001098","countTrades":1,"firstName":"Rafael","nickname":"Ted","lastName":"Cruz","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-01-25","dateLastTraded":"2022-01-25","volume":32500}},{"_politicianId":"C001101","countTrades":249,"firstName":"Katherine","nickname":null,"lastName":"Clark","party":"democrat","stats":{"countFilings":14,"countIssuers":63,"countTrades":249,"dateFirstTraded":"2020-10-01","dateLastTraded":"2023-02-23","volume":3076000}},{"_politicianId":"C001103","countTrades":12,"firstName":"Earl","nickname":"Buddy","lastName":"Carter","party":"republican","stats":{"countFilings":3,"countIssuers":7,"countTrades":12,"dateFirstTraded":"2021-02-09","dateLastTraded":"2023-05-01","volume":2315000}},{"_politicianId":"C001104","countTrades":31,"firstName":"David","nickname":"Madison","lastName":"Cawthorn","party":"republican","stats":{"countFilings":5,"countIssuers":8,"countTrades":31,"dateFirstTraded":"2021-09-24","dateLastTraded":"2022-05-18","volume":1368500}},{"_politicianId":"C001108","countTrades":3,"firstName":"James","nickname":null,"lastName":"Comer","party":"republican","stats":{"countFilings":1,"countIssuers":3,"countTrades":3,"dateFirstTraded":"2020-11-20","dateLastTraded":"2020-12-17","volume":24000}},{"_politicianId":"C001114","countTrades":169,"firstName":"John","nickname":null,"lastName":"Curtis","party":"republican","stats":{"countFilings":22,"countIssuers":94,"countTrades":169,"dateFirstTraded":"2020-10-09","dateLastTraded":"2023-06-21","volume":1474500}},{"_politicianId":"C001120","countTrades":25,"firstName":"Daniel","nickname":"Dan","lastName":"Crenshaw","party":"republican","stats":{"countFilings":7,"countIssuers":15,"countTrades":25,"dateFirstTraded":"2021-03-05","dateLastTraded":"2023-03-20","volume":249000}},{"_politicianId":"C001123","countTrades":168,"firstName":"Gilbert","nickname":"Gil","lastName":"Cisneros","party":"democrat","stats":{"countFilings":4,"countIssuers":115,"countTrades":168,"dateFirstTraded":"2020-09-23","dateLastTraded":"2020-12-31","volume":2709500}},{"_politicianId":"D000399","countTrades":62,"firstName":"Lloyd","nickname":null,"lastName":"Doggett","party":"democrat","stats":{"countFilings":31,"countIssuers":6,"countTrades":62,"dateFirstTraded":"2020-10-02","dateLastTraded":"2023-08-16","volume":496000}},{"_politicianId":"D000598","countTrades":6,"firstName":"Susan","nickname":null,"lastName":"Davis","party":"democrat","stats":{"countFilings":2,"countIssuers":6,"countTrades":6,"dateFirstTraded":"2020-09-29","dateLastTraded":"2020-10-28","volume":121500}},{"_politicianId":"D000600","countTrades":1,"firstName":"Mario","nickname":"Mario","lastName":"Diaz-Balart Caballero","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-04-22","dateLastTraded":"2021-04-22","volume":75000}},{"_politicianId":"D000617","countTrades":204,"firstName":"Suzan","nickname":null,"lastName":"DelBene","party":"democrat","stats":{"countFilings":54,"countIssuers":50,"countTrades":204,"dateFirstTraded":"2020-09-30","dateLastTraded":"2023-08-31","volume":122559000}},{"_politicianId":"D000622","countTrades":4,"firstName":"Ladda","nickname":"Tammy","lastName":"Duckworth","party":"democrat","stats":{"countFilings":2,"countIssuers":3,"countTrades":4,"dateFirstTraded":"2021-04-05","dateLastTraded":"2023-04-11","volume":81000}},{"_politicianId":"D000624","countTrades":36,"firstName":"Deborah","nickname":"Debbie","lastName":"Dingell","party":"democrat","stats":{"countFilings":22,"countIssuers":27,"countTrades":36,"dateFirstTraded":"2020-10-13","dateLastTraded":"2023-04-10","volume":985500}},{"_politicianId":"D000626","countTrades":2,"firstName":"Warren","nickname":null,"lastName":"Davidson","party":"republican","stats":{"countFilings":1,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2020-09-21","dateLastTraded":"2020-09-21","volume":65000}},{"_politicianId":"D000628","countTrades":45,"firstName":"Neal","nickname":null,"lastName":"Dunn","party":"republican","stats":{"countFilings":7,"countIssuers":10,"countTrades":45,"dateFirstTraded":"2020-10-01","dateLastTraded":"2023-05-05","volume":1678500}},{"_politicianId":"D000629","countTrades":6,"firstName":"Sharice","nickname":null,"lastName":"Davids","party":"democrat","stats":{"countFilings":1,"countIssuers":5,"countTrades":6,"dateFirstTraded":"2022-06-21","dateLastTraded":"2022-06-21","volume":10500}},{"_politicianId":"E000296","countTrades":54,"firstName":"Dwight","nickname":null,"lastName":"Evans","party":"democrat","stats":{"countFilings":9,"countIssuers":37,"countTrades":54,"dateFirstTraded":"2020-10-14","dateLastTraded":"2023-06-22","volume":481000}},{"_politicianId":"E000298","countTrades":14,"firstName":"Ronald","nickname":"Ron","lastName":"Estes","party":"republican","stats":{"countFilings":5,"countIssuers":7,"countTrades":14,"dateFirstTraded":"2022-02-10","dateLastTraded":"2022-09-27","volume":161000}},{"_politicianId":"F000062","countTrades":3,"firstName":"Dianne","nickname":null,"lastName":"Feinstein","party":"democrat","stats":{"countFilings":2,"countIssuers":3,"countTrades":3,"dateFirstTraded":"2020-11-05","dateLastTraded":"2022-01-10","volume":37607500}},{"_politicianId":"F000246","countTrades":203,"firstName":"Patrick","nickname":"Pat","lastName":"Fallon","party":"republican","stats":{"countFilings":12,"countIssuers":23,"countTrades":203,"dateFirstTraded":"2021-01-13","dateLastTraded":"2022-10-31","volume":20359000}},{"_politicianId":"F000450","countTrades":421,"firstName":"Virginia","nickname":null,"lastName":"Foxx","party":"republican","stats":{"countFilings":36,"countIssuers":84,"countTrades":421,"dateFirstTraded":"2020-09-28","dateLastTraded":"2023-08-29","volume":12049000}},{"_politicianId":"F000459","countTrades":167,"firstName":"Charles","nickname":"Chuck","lastName":"Fleischmann","party":"republican","stats":{"countFilings":20,"countIssuers":74,"countTrades":167,"dateFirstTraded":"2020-10-20","dateLastTraded":"2023-07-21","volume":1837500}},{"_politicianId":"F000462","countTrades":434,"firstName":"Lois","nickname":null,"lastName":"Frankel","party":"democrat","stats":{"countFilings":36,"countIssuers":141,"countTrades":434,"dateFirstTraded":"2020-09-23","dateLastTraded":"2023-08-10","volume":3472000}},{"_politicianId":"F000463","countTrades":4,"firstName":"Debra","nickname":"Deb","lastName":"Fischer","party":"republican","stats":{"countFilings":1,"countIssuers":4,"countTrades":4,"dateFirstTraded":"2022-06-23","dateLastTraded":"2022-06-23","volume":166000}},{"_politicianId":"F000469","countTrades":1,"firstName":"Russell","nickname":"Russ","lastName":"Fulcher","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-03-15","dateLastTraded":"2022-03-15","volume":8000}},{"_politicianId":"F000472","countTrades":98,"firstName":"Clifford","nickname":"Scott","lastName":"Franklin","party":"republican","stats":{"countFilings":10,"countIssuers":39,"countTrades":98,"dateFirstTraded":"2021-02-11","dateLastTraded":"2023-04-19","volume":11645509}},{"_politicianId":"F000474","countTrades":1,"firstName":"Mike","nickname":null,"lastName":"Flood","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2023-04-24","dateLastTraded":"2023-04-24","volume":8000}},{"_politicianId":"G000061","countTrades":42,"firstName":"Michael","nickname":"Mike","lastName":"Garcia","party":"republican","stats":{"countFilings":13,"countIssuers":15,"countTrades":42,"dateFirstTraded":"2020-10-26","dateLastTraded":"2023-08-17","volume":1673000}},{"_politicianId":"G000359","countTrades":3,"firstName":"Lindsey","nickname":null,"lastName":"Graham","party":"republican","stats":{"countFilings":1,"countIssuers":3,"countTrades":3,"dateFirstTraded":"2022-06-30","dateLastTraded":"2022-06-30","volume":73000}},{"_politicianId":"G000551","countTrades":2,"firstName":"Raul","nickname":null,"lastName":"Grijalva","party":"democrat","stats":{"countFilings":2,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2021-11-24","dateLastTraded":"2021-12-17","volume":16000}},{"_politicianId":"G000559","countTrades":4,"firstName":"John","nickname":null,"lastName":"Raymond Garamendi","party":"democrat","stats":{"countFilings":1,"countIssuers":4,"countTrades":4,"dateFirstTraded":"2022-01-14","dateLastTraded":"2022-01-14","volume":56500}},{"_politicianId":"G000563","countTrades":37,"firstName":"Robert","nickname":"Bob","lastName":"Gibbs","party":"republican","stats":{"countFilings":18,"countIssuers":27,"countTrades":37,"dateFirstTraded":"2020-11-16","dateLastTraded":"2022-12-21","volume":492000}},{"_politicianId":"G000576","countTrades":2,"firstName":"Glenn","nickname":null,"lastName":"Grothman","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2022-02-02","dateLastTraded":"2022-04-19","volume":16000}},{"_politicianId":"G000577","countTrades":8,"firstName":"Garret","nickname":null,"lastName":"Graves","party":"republican","stats":{"countFilings":4,"countIssuers":7,"countTrades":8,"dateFirstTraded":"2020-12-28","dateLastTraded":"2022-09-30","volume":64000}},{"_politicianId":"G000579","countTrades":1,"firstName":"Michael","nickname":"Mike","lastName":"Gallagher","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-03-25","dateLastTraded":"2021-03-25","volume":8000}},{"_politicianId":"G000581","countTrades":2,"firstName":"Vicente","nickname":null,"lastName":"Gonzalez","party":"democrat","stats":{"countFilings":1,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2021-07-24","dateLastTraded":"2022-05-29","volume":183000}},{"_politicianId":"G000583","countTrades":1362,"firstName":"Joshua","nickname":"Josh","lastName":"Gottheimer","party":"democrat","stats":{"countFilings":38,"countIssuers":299,"countTrades":1362,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-08-25","volume":177432000}},{"_politicianId":"G000584","countTrades":158,"firstName":"Gregory","nickname":"Greg","lastName":"Gianforte","party":"republican","stats":{"countFilings":7,"countIssuers":139,"countTrades":158,"dateFirstTraded":"2020-09-21","dateLastTraded":"2020-12-21","volume":9098000}},{"_politicianId":"G000588","countTrades":6,"firstName":"Anthony","nickname":null,"lastName":"Gonzalez","party":"republican","stats":{"countFilings":5,"countIssuers":5,"countTrades":6,"dateFirstTraded":"2021-02-01","dateLastTraded":"2022-12-22","volume":765000}},{"_politicianId":"G000590","countTrades":430,"firstName":"Mark","nickname":null,"lastName":"Green","party":"republican","stats":{"countFilings":51,"countIssuers":46,"countTrades":430,"dateFirstTraded":"2020-10-05","dateLastTraded":"2023-08-14","volume":85627000}},{"_politicianId":"G000591","countTrades":69,"firstName":"Michael","nickname":null,"lastName":"Guest","party":"republican","stats":{"countFilings":11,"countIssuers":45,"countTrades":69,"dateFirstTraded":"2021-01-22","dateLastTraded":"2023-08-09","volume":1580000}},{"_politicianId":"G000596","countTrades":114,"firstName":"Marjorie Taylor","nickname":null,"lastName":"Greene","party":"republican","stats":{"countFilings":16,"countIssuers":67,"countTrades":114,"dateFirstTraded":"2021-01-20","dateLastTraded":"2022-06-10","volume":1671000}},{"_politicianId":"G000597","countTrades":15,"firstName":"Andrew","nickname":null,"lastName":"Garbarino","party":"republican","stats":{"countFilings":4,"countIssuers":11,"countTrades":15,"dateFirstTraded":"2021-04-23","dateLastTraded":"2022-01-14","volume":120000}},{"_politicianId":"G000599","countTrades":1306,"firstName":"Daniel S.","nickname":null,"lastName":"Goldman","party":"democrat","stats":{"countFilings":8,"countIssuers":760,"countTrades":1306,"dateFirstTraded":"2023-01-10","dateLastTraded":"2023-08-03","volume":59759000}},{"_politicianId":"H000273","countTrades":86,"firstName":"John","nickname":null,"lastName":"Hickenlooper","party":"democrat","stats":{"countFilings":15,"countIssuers":35,"countTrades":86,"dateFirstTraded":"2021-01-22","dateLastTraded":"2023-06-09","volume":9897500}},{"_politicianId":"H000601","countTrades":51,"firstName":"William","nickname":"Bill","lastName":"Hagerty","party":"republican","stats":{"countFilings":15,"countIssuers":26,"countTrades":51,"dateFirstTraded":"2021-01-08","dateLastTraded":"2022-08-19","volume":30919000}},{"_politicianId":"H001047","countTrades":1,"firstName":"James","nickname":"Jim","lastName":"Himes","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2023-02-22","dateLastTraded":"2023-02-22","volume":75000}},{"_politicianId":"H001058","countTrades":1,"firstName":"William","nickname":"Bill","lastName":"Huizenga","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2020-12-07","dateLastTraded":"2020-12-07","volume":8000}},{"_politicianId":"H001061","countTrades":1,"firstName":"John","nickname":null,"lastName":"Hoeven","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-07-23","dateLastTraded":"2021-07-23","volume":15000000}},{"_politicianId":"H001065","countTrades":6,"firstName":"George","nickname":null,"lastName":"Holding","party":"republican","stats":{"countFilings":1,"countIssuers":5,"countTrades":6,"dateFirstTraded":"2020-10-21","dateLastTraded":"2020-10-22","volume":97000}},{"_politicianId":"H001072","countTrades":11,"firstName":"James","nickname":"French","lastName":"Hill","party":"republican","stats":{"countFilings":5,"countIssuers":9,"countTrades":11,"dateFirstTraded":"2020-11-30","dateLastTraded":"2023-02-23","volume":282603}},{"_politicianId":"H001074","countTrades":61,"firstName":"Joseph","nickname":"Trey","lastName":"Hollingsworth","party":"republican","stats":{"countFilings":17,"countIssuers":6,"countTrades":61,"dateFirstTraded":"2020-11-09","dateLastTraded":"2022-10-24","volume":7516000}},{"_politicianId":"H001082","countTrades":468,"firstName":"Kevin","nickname":null,"lastName":"Hern","party":"republican","stats":{"countFilings":36,"countIssuers":114,"countTrades":468,"dateFirstTraded":"2020-09-28","dateLastTraded":"2023-08-31","volume":44937000}},{"_politicianId":"H001086","countTrades":3819,"firstName":"Diana","nickname":null,"lastName":"Harshbarger","party":"republican","stats":{"countFilings":21,"countIssuers":278,"countTrades":3819,"dateFirstTraded":"2021-01-04","dateLastTraded":"2023-02-22","volume":36769500}},{"_politicianId":"H001091","countTrades":14,"firstName":"Ashley","nickname":null,"lastName":"Hinson","party":"republican","stats":{"countFilings":1,"countIssuers":12,"countTrades":14,"dateFirstTraded":"2021-03-04","dateLastTraded":"2021-03-31","volume":1495500}},{"_politicianId":"I000024","countTrades":3,"firstName":"James","nickname":null,"lastName":"Inhofe","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":3,"dateFirstTraded":"2020-12-15","dateLastTraded":"2021-01-05","volume":158000}},{"_politicianId":"J000020","countTrades":281,"firstName":"Christopher","nickname":"Chris","lastName":"Jacobs","party":"republican","stats":{"countFilings":21,"countIssuers":166,"countTrades":281,"dateFirstTraded":"2020-09-25","dateLastTraded":"2022-12-12","volume":6005000}},{"_politicianId":"J000294","countTrades":7,"firstName":"Hakeem","nickname":null,"lastName":"Jeffries","party":"democrat","stats":{"countFilings":6,"countIssuers":6,"countTrades":7,"dateFirstTraded":"2020-11-25","dateLastTraded":"2021-05-17","volume":80500}},{"_politicianId":"J000295","countTrades":9,"firstName":"David","nickname":null,"lastName":"Joyce","party":"republican","stats":{"countFilings":4,"countIssuers":6,"countTrades":9,"dateFirstTraded":"2020-12-02","dateLastTraded":"2022-05-19","volume":72000}},{"_politicianId":"J000305","countTrades":64,"firstName":"Sara","nickname":null,"lastName":"Jacobs","party":"democrat","stats":{"countFilings":5,"countIssuers":55,"countTrades":64,"dateFirstTraded":"2021-02-19","dateLastTraded":"2022-05-31","volume":7413000}},{"_politicianId":"J000308","countTrades":2,"firstName":"Jeffrey","nickname":"Jeff","lastName":"Jackson","party":"democrat","stats":{"countFilings":1,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2023-01-29","dateLastTraded":"2023-01-29","volume":16000}},{"_politicianId":"J000309","countTrades":29,"firstName":"Jonathan","nickname":null,"lastName":"Jackson","party":"democrat","stats":{"countFilings":5,"countIssuers":23,"countTrades":29,"dateFirstTraded":"2023-01-09","dateLastTraded":"2023-08-31","volume":887000}},{"_politicianId":"K000009","countTrades":1,"firstName":"Marcia","nickname":"Marcy","lastName":"Kaptur","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-10-21","dateLastTraded":"2022-10-21","volume":1280}},{"_politicianId":"K000375","countTrades":106,"firstName":"William","nickname":"Bill","lastName":"Keating","party":"democrat","stats":{"countFilings":16,"countIssuers":69,"countTrades":106,"dateFirstTraded":"2021-03-17","dateLastTraded":"2023-08-10","volume":1650000}},{"_politicianId":"K000376","countTrades":31,"firstName":"George","nickname":"Mike","lastName":"Kelly","party":"republican","stats":{"countFilings":18,"countIssuers":21,"countTrades":31,"dateFirstTraded":"2020-12-01","dateLastTraded":"2023-08-24","volume":2503000}},{"_politicianId":"K000377","countTrades":1,"firstName":"Mark","nickname":null,"lastName":"Kelly","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-04-13","dateLastTraded":"2021-04-13","volume":8000}},{"_politicianId":"K000383","countTrades":8,"firstName":"Angus","nickname":null,"lastName":"King","party":"other","stats":{"countFilings":5,"countIssuers":6,"countTrades":8,"dateFirstTraded":"2020-09-28","dateLastTraded":"2023-05-19","volume":113000}},{"_politicianId":"K000389","countTrades":14334,"firstName":"Rohit","nickname":"Ro","lastName":"Khanna","party":"democrat","stats":{"countFilings":36,"countIssuers":1252,"countTrades":14334,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-08-31","volume":263144500}},{"_politicianId":"K000391","countTrades":2,"firstName":"Subramanian","nickname":"Raja","lastName":"Krishnamoorthi","party":"democrat","stats":{"countFilings":1,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2020-12-11","dateLastTraded":"2020-12-11","volume":150000}},{"_politicianId":"K000392","countTrades":18,"firstName":"David","nickname":null,"lastName":"Kustoff","party":"republican","stats":{"countFilings":10,"countIssuers":11,"countTrades":18,"dateFirstTraded":"2021-02-08","dateLastTraded":"2023-03-02","volume":381902}},{"_politicianId":"K000398","countTrades":27,"firstName":"Thomas","nickname":null,"lastName":"Kean Jr","party":"republican","stats":{"countFilings":6,"countIssuers":17,"countTrades":27,"dateFirstTraded":"2023-01-10","dateLastTraded":"2023-08-04","volume":795000}},{"_politicianId":"L000273","countTrades":1,"firstName":"Teresa","nickname":null,"lastName":"Leger Fernandez","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-01-20","dateLastTraded":"2021-01-20","volume":32500}},{"_politicianId":"L000397","countTrades":230,"firstName":"Susan","nickname":"Zoe","lastName":"Lofgren","party":"democrat","stats":{"countFilings":13,"countIssuers":108,"countTrades":230,"dateFirstTraded":"2021-08-02","dateLastTraded":"2023-05-26","volume":2154000}},{"_politicianId":"L000559","countTrades":203,"firstName":"James","nickname":"Jim","lastName":"Langevin","party":"democrat","stats":{"countFilings":26,"countIssuers":14,"countTrades":203,"dateFirstTraded":"2020-10-26","dateLastTraded":"2022-12-20","volume":5940000}},{"_politicianId":"L000560","countTrades":36,"firstName":"Richard","nickname":"Rick","lastName":"Larsen","party":"democrat","stats":{"countFilings":4,"countIssuers":33,"countTrades":36,"dateFirstTraded":"2020-11-25","dateLastTraded":"2023-07-05","volume":288000}},{"_politicianId":"L000562","countTrades":4,"firstName":"Stephen","nickname":null,"lastName":"Lynch","party":"democrat","stats":{"countFilings":1,"countIssuers":4,"countTrades":4,"dateFirstTraded":"2021-12-30","dateLastTraded":"2022-12-30","volume":81000}},{"_politicianId":"L000564","countTrades":172,"firstName":"Douglas","nickname":"Doug","lastName":"Lamborn","party":"republican","stats":{"countFilings":21,"countIssuers":1,"countTrades":172,"dateFirstTraded":"2020-10-08","dateLastTraded":"2023-08-08","volume":3360500}},{"_politicianId":"L000566","countTrades":6,"firstName":"Robert","nickname":"Bob","lastName":"Latta","party":"republican","stats":{"countFilings":6,"countIssuers":1,"countTrades":6,"dateFirstTraded":"2022-07-12","dateLastTraded":"2023-07-20","volume":48000}},{"_politicianId":"L000569","countTrades":3,"firstName":"William","nickname":"Blaine","lastName":"Luetkemeyer","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":3,"dateFirstTraded":"2022-11-23","dateLastTraded":"2022-12-22","volume":9000000}},{"_politicianId":"L000571","countTrades":2,"firstName":"Cynthia","nickname":null,"lastName":"Lummis","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2021-08-16","dateLastTraded":"2021-09-03","volume":83000}},{"_politicianId":"L000576","countTrades":13,"firstName":"William","nickname":"Billy","lastName":"Long","party":"republican","stats":{"countFilings":3,"countIssuers":6,"countTrades":13,"dateFirstTraded":"2020-12-31","dateLastTraded":"2022-02-24","volume":661500}},{"_politicianId":"L000579","countTrades":324,"firstName":"Alan","nickname":null,"lastName":"Lowenthal","party":"democrat","stats":{"countFilings":148,"countIssuers":82,"countTrades":324,"dateFirstTraded":"2020-10-01","dateLastTraded":"2022-12-14","volume":3884157}},{"_politicianId":"L000589","countTrades":2,"firstName":"Debra","nickname":"Debbie","lastName":"Lesko","party":"republican","stats":{"countFilings":2,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2023-01-03","dateLastTraded":"2023-03-26","volume":16000}},{"_politicianId":"L000590","countTrades":514,"firstName":"Suzanne","nickname":"Susie","lastName":"Lee","party":"democrat","stats":{"countFilings":24,"countIssuers":184,"countTrades":514,"dateFirstTraded":"2020-09-28","dateLastTraded":"2023-05-09","volume":4373501}},{"_politicianId":"L000591","countTrades":4,"firstName":"Elaine","nickname":null,"lastName":"Luria","party":"democrat","stats":{"countFilings":1,"countIssuers":4,"countTrades":4,"dateFirstTraded":"2021-03-22","dateLastTraded":"2021-03-31","volume":766000}},{"_politicianId":"L000594","countTrades":2,"firstName":"Kelly","nickname":null,"lastName":"Loeffler","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2020-09-23","dateLastTraded":"2020-09-23","volume":3375000}},{"_politicianId":"L000597","countTrades":1,"firstName":"Laurel","nickname":null,"lastName":"Lee","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2023-05-24","dateLastTraded":"2023-05-24","volume":750000}},{"_politicianId":"M000087","countTrades":7,"firstName":"Carolyn","nickname":null,"lastName":"Maloney","party":"democrat","stats":{"countFilings":5,"countIssuers":4,"countTrades":7,"dateFirstTraded":"2021-09-21","dateLastTraded":"2022-06-08","volume":227500}},{"_politicianId":"M000317","countTrades":6,"firstName":"Nicole","nickname":null,"lastName":"Malliotakis","party":"republican","stats":{"countFilings":4,"countIssuers":6,"countTrades":6,"dateFirstTraded":"2022-01-06","dateLastTraded":"2023-03-17","volume":215000}},{"_politicianId":"M000355","countTrades":14,"firstName":"Addison","nickname":"Mitch","lastName":"McConnell","party":"republican","stats":{"countFilings":13,"countIssuers":3,"countTrades":14,"dateFirstTraded":"2020-12-03","dateLastTraded":"2023-09-01","volume":179000}},{"_politicianId":"M000871","countTrades":1,"firstName":"Tracey","nickname":null,"lastName":"Mann","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2023-05-25","dateLastTraded":"2023-05-25","volume":32500}},{"_politicianId":"M000934","countTrades":37,"firstName":"Gerald","nickname":"Jerry","lastName":"Moran","party":"republican","stats":{"countFilings":2,"countIssuers":21,"countTrades":37,"dateFirstTraded":"2021-01-27","dateLastTraded":"2021-12-21","volume":296000}},{"_politicianId":"M001135","countTrades":593,"firstName":"Kathy","nickname":null,"lastName":"Manning","party":"democrat","stats":{"countFilings":21,"countIssuers":167,"countTrades":593,"dateFirstTraded":"2021-01-15","dateLastTraded":"2023-08-31","volume":13320622}},{"_politicianId":"M001156","countTrades":1,"firstName":"Patrick","nickname":null,"lastName":"McHenry","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2020-11-19","dateLastTraded":"2020-11-19","volume":32500}},{"_politicianId":"M001157","countTrades":5237,"firstName":"Michael","nickname":null,"lastName":"McCaul","party":"republican","stats":{"countFilings":35,"countIssuers":502,"countTrades":5237,"dateFirstTraded":"2020-09-23","dateLastTraded":"2023-07-31","volume":419860000}},{"_politicianId":"M001158","countTrades":157,"firstName":"Kenny","nickname":null,"lastName":"Marchant","party":"republican","stats":{"countFilings":2,"countIssuers":71,"countTrades":157,"dateFirstTraded":"2020-10-16","dateLastTraded":"2020-11-25","volume":4268000}},{"_politicianId":"M001159","countTrades":2,"firstName":"Cathy","nickname":null,"lastName":"McMorris Rodgers","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2022-12-02","dateLastTraded":"2023-05-12","volume":207500}},{"_politicianId":"M001163","countTrades":12,"firstName":"Doris","nickname":null,"lastName":"Matsui","party":"democrat","stats":{"countFilings":6,"countIssuers":3,"countTrades":12,"dateFirstTraded":"2020-10-09","dateLastTraded":"2023-05-30","volume":9675000}},{"_politicianId":"M001180","countTrades":50,"firstName":"David","nickname":null,"lastName":"McKinley","party":"republican","stats":{"countFilings":10,"countIssuers":33,"countTrades":50,"dateFirstTraded":"2020-10-05","dateLastTraded":"2022-09-21","volume":764353}},{"_politicianId":"M001186","countTrades":284,"firstName":"Peter","nickname":null,"lastName":"Meijer","party":"republican","stats":{"countFilings":4,"countIssuers":226,"countTrades":284,"dateFirstTraded":"2021-01-07","dateLastTraded":"2022-06-27","volume":4993545}},{"_politicianId":"M001196","countTrades":13,"firstName":"Seth","nickname":null,"lastName":"Moulton","party":"democrat","stats":{"countFilings":9,"countIssuers":7,"countTrades":13,"dateFirstTraded":"2021-02-26","dateLastTraded":"2023-08-18","volume":2644030}},{"_politicianId":"M001198","countTrades":2,"firstName":"Roger","nickname":null,"lastName":"Marshall","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2021-03-01","dateLastTraded":"2023-08-29","volume":550000}},{"_politicianId":"M001199","countTrades":29,"firstName":"Brian","nickname":null,"lastName":"Mast","party":"republican","stats":{"countFilings":9,"countIssuers":12,"countTrades":29,"dateFirstTraded":"2020-11-05","dateLastTraded":"2022-04-18","volume":758000}},{"_politicianId":"M001200","countTrades":6,"firstName":"Aston","nickname":null,"lastName":"McEachin","party":"democrat","stats":{"countFilings":6,"countIssuers":6,"countTrades":6,"dateFirstTraded":"2021-11-23","dateLastTraded":"2021-12-17","volume":48000}},{"_politicianId":"M001203","countTrades":118,"firstName":"Tomasz","nickname":null,"lastName":"Malinowski","party":"democrat","stats":{"countFilings":8,"countIssuers":37,"countTrades":118,"dateFirstTraded":"2020-09-24","dateLastTraded":"2021-05-26","volume":2084500}},{"_politicianId":"M001204","countTrades":10,"firstName":"Daniel","nickname":"Dan","lastName":"Meuser","party":"republican","stats":{"countFilings":6,"countIssuers":2,"countTrades":10,"dateFirstTraded":"2022-01-21","dateLastTraded":"2023-08-14","volume":830000}},{"_politicianId":"M001205","countTrades":48,"firstName":"Carol","nickname":null,"lastName":"Miller","party":"republican","stats":{"countFilings":6,"countIssuers":39,"countTrades":48,"dateFirstTraded":"2021-03-04","dateLastTraded":"2023-03-03","volume":1407609}},{"_politicianId":"M001206","countTrades":15,"firstName":"Joseph","nickname":"Joe","lastName":"Morelle","party":"democrat","stats":{"countFilings":1,"countIssuers":15,"countTrades":15,"dateFirstTraded":"2020-11-20","dateLastTraded":"2020-11-20","volume":169000}},{"_politicianId":"M001210","countTrades":2,"firstName":"Gregory","nickname":"Greg","lastName":"Murphy","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2021-01-22","dateLastTraded":"2022-05-01","volume":450000}},{"_politicianId":"M001212","countTrades":7,"firstName":"Felix","nickname":"Barry","lastName":"Moore","party":"republican","stats":{"countFilings":3,"countIssuers":4,"countTrades":7,"dateFirstTraded":"2021-05-05","dateLastTraded":"2023-08-31","volume":123000}},{"_politicianId":"M001213","countTrades":112,"firstName":"Blake","nickname":null,"lastName":"Moore","party":"republican","stats":{"countFilings":7,"countIssuers":21,"countTrades":112,"dateFirstTraded":"2021-01-20","dateLastTraded":"2022-01-21","volume":1030000}},{"_politicianId":"M001217","countTrades":29,"firstName":"Jared","nickname":null,"lastName":"Moskowitz","party":"democrat","stats":{"countFilings":3,"countIssuers":20,"countTrades":29,"dateFirstTraded":"2023-02-13","dateLastTraded":"2023-04-14","volume":323500}},{"_politicianId":"M001220","countTrades":4,"firstName":"Morgan","nickname":null,"lastName":"McGarvey","party":"democrat","stats":{"countFilings":2,"countIssuers":2,"countTrades":4,"dateFirstTraded":"2023-02-07","dateLastTraded":"2023-03-07","volume":32000}},{"_politicianId":"M001222","countTrades":23,"firstName":"Max","nickname":null,"lastName":"Miller","party":"republican","stats":{"countFilings":4,"countIssuers":16,"countTrades":23,"dateFirstTraded":"2023-01-06","dateLastTraded":"2023-06-29","volume":542500}},{"_politicianId":"M001227","countTrades":1,"firstName":"Jennifer ","nickname":null,"lastName":"McClellan ","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2023-05-04","dateLastTraded":"2023-05-04","volume":75000}},{"_politicianId":"N000147","countTrades":3,"firstName":"Eleanor","nickname":null,"lastName":"Holmes Norton","party":"democrat","stats":{"countFilings":3,"countIssuers":3,"countTrades":3,"dateFirstTraded":"2021-03-01","dateLastTraded":"2023-06-01","volume":140000}},{"_politicianId":"N000189","countTrades":62,"firstName":"Daniel","nickname":"Dan","lastName":"Newhouse","party":"republican","stats":{"countFilings":2,"countIssuers":43,"countTrades":62,"dateFirstTraded":"2020-10-01","dateLastTraded":"2023-04-26","volume":496000}},{"_politicianId":"N000192","countTrades":301,"firstName":"Marie","nickname":null,"lastName":"Newman","party":"democrat","stats":{"countFilings":17,"countIssuers":61,"countTrades":301,"dateFirstTraded":"2021-01-04","dateLastTraded":"2022-11-21","volume":6260500}},{"_politicianId":"O000171","countTrades":2,"firstName":"Thomas","nickname":"Tom","lastName":"O'Halleran","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2022-10-28","dateLastTraded":"2022-10-31","volume":16000}},{"_politicianId":"P000034","countTrades":10,"firstName":"Frank","nickname":null,"lastName":"Pallone","party":"democrat","stats":{"countFilings":2,"countIssuers":8,"countTrades":10,"dateFirstTraded":"2020-09-25","dateLastTraded":"2021-08-11","volume":129000}},{"_politicianId":"P000048","countTrades":21,"firstName":"August","nickname":null,"lastName":"Pfluger","party":"republican","stats":{"countFilings":2,"countIssuers":10,"countTrades":21,"dateFirstTraded":"2021-01-19","dateLastTraded":"2022-04-12","volume":192500}},{"_politicianId":"P000096","countTrades":1,"firstName":"William","nickname":"Bill","lastName":"Pascrell","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-12-20","dateLastTraded":"2021-12-20","volume":8000}},{"_politicianId":"P000197","countTrades":70,"firstName":"Nancy","nickname":null,"lastName":"Pelosi","party":"democrat","stats":{"countFilings":21,"countIssuers":21,"countTrades":70,"dateFirstTraded":"2020-11-05","dateLastTraded":"2023-06-15","volume":56444616}},{"_politicianId":"P000523","countTrades":9,"firstName":"David","nickname":null,"lastName":"Price","party":"democrat","stats":{"countFilings":8,"countIssuers":8,"countTrades":9,"dateFirstTraded":"2020-10-26","dateLastTraded":"2022-03-17","volume":63422}},{"_politicianId":"P000593","countTrades":36,"firstName":"Edwin","nickname":"Ed","lastName":"Perlmutter","party":"democrat","stats":{"countFilings":12,"countIssuers":14,"countTrades":36,"dateFirstTraded":"2020-09-23","dateLastTraded":"2022-11-10","volume":288000}},{"_politicianId":"P000595","countTrades":30,"firstName":"Gary","nickname":null,"lastName":"Peters","party":"democrat","stats":{"countFilings":16,"countIssuers":27,"countTrades":30,"dateFirstTraded":"2020-12-14","dateLastTraded":"2023-07-28","volume":454000}},{"_politicianId":"P000597","countTrades":2,"firstName":"Rochelle","nickname":"Chellie","lastName":"Pingree","party":"democrat","stats":{"countFilings":2,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2021-03-03","dateLastTraded":"2022-05-26","volume":350000}},{"_politicianId":"P000608","countTrades":89,"firstName":"Scott","nickname":null,"lastName":"Peters","party":"democrat","stats":{"countFilings":27,"countIssuers":49,"countTrades":89,"dateFirstTraded":"2020-10-01","dateLastTraded":"2023-08-17","volume":31230000}},{"_politicianId":"P000612","countTrades":1,"firstName":"David","nickname":null,"lastName":"Perdue","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2020-09-25","dateLastTraded":"2020-09-25","volume":375000}},{"_politicianId":"P000616","countTrades":143,"firstName":"Dean","nickname":null,"lastName":"Phillips","party":"democrat","stats":{"countFilings":12,"countIssuers":92,"countTrades":143,"dateFirstTraded":"2020-09-23","dateLastTraded":"2021-09-01","volume":2815500}},{"_politicianId":"R000305","countTrades":28,"firstName":"Deborah","nickname":null,"lastName":"Ross","party":"democrat","stats":{"countFilings":7,"countIssuers":21,"countTrades":28,"dateFirstTraded":"2021-01-04","dateLastTraded":"2023-04-10","volume":658500}},{"_politicianId":"R000307","countTrades":33,"firstName":"Charles","nickname":"Pat","lastName":"Roberts","party":"republican","stats":{"countFilings":3,"countIssuers":18,"countTrades":33,"dateFirstTraded":"2020-10-13","dateLastTraded":"2020-12-22","volume":1264500}},{"_politicianId":"R000395","countTrades":37,"firstName":"Harold","nickname":"Hal","lastName":"Rogers","party":"republican","stats":{"countFilings":11,"countIssuers":22,"countTrades":37,"dateFirstTraded":"2020-09-21","dateLastTraded":"2023-06-13","volume":369500}},{"_politicianId":"R000582","countTrades":429,"firstName":"David","nickname":"Phil","lastName":"Roe","party":"republican","stats":{"countFilings":4,"countIssuers":168,"countTrades":429,"dateFirstTraded":"2020-09-21","dateLastTraded":"2020-12-31","volume":3799500}},{"_politicianId":"R000597","countTrades":1,"firstName":"Hugh","nickname":"Tom","lastName":"Rice","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-09-19","dateLastTraded":"2022-09-19","volume":175000}},{"_politicianId":"R000603","countTrades":6,"firstName":"David","nickname":null,"lastName":"Rouzer","party":"republican","stats":{"countFilings":4,"countIssuers":5,"countTrades":6,"dateFirstTraded":"2021-07-20","dateLastTraded":"2022-01-14","volume":72500}},{"_politicianId":"R000605","countTrades":1,"firstName":"Marion","nickname":"Mike","lastName":"Rounds","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-05-01","dateLastTraded":"2021-05-01","volume":32500}},{"_politicianId":"R000606","countTrades":3,"firstName":"Jamin","nickname":"Jamie","lastName":"Raskin","party":"democrat","stats":{"countFilings":2,"countIssuers":3,"countTrades":3,"dateFirstTraded":"2020-12-18","dateLastTraded":"2022-02-09","volume":2219520}},{"_politicianId":"R000607","countTrades":19,"firstName":"Laurence","nickname":null,"lastName":"Rooney","party":"republican","stats":{"countFilings":4,"countIssuers":19,"countTrades":19,"dateFirstTraded":"2020-09-22","dateLastTraded":"2020-12-23","volume":511500}},{"_politicianId":"R000608","countTrades":20,"firstName":"Jacklyn","nickname":null,"lastName":"Rosen","party":"democrat","stats":{"countFilings":4,"countIssuers":10,"countTrades":20,"dateFirstTraded":"2020-11-17","dateLastTraded":"2023-01-03","volume":160000}},{"_politicianId":"R000609","countTrades":145,"firstName":"John","nickname":null,"lastName":"Rutherford","party":"republican","stats":{"countFilings":10,"countIssuers":112,"countTrades":145,"dateFirstTraded":"2020-10-13","dateLastTraded":"2023-04-28","volume":1209000}},{"_politicianId":"R000612","countTrades":2,"firstName":"John","nickname":null,"lastName":"Rose","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":2,"dateFirstTraded":"2022-09-28","dateLastTraded":"2022-11-29","volume":107500}},{"_politicianId":"R000618","countTrades":5,"firstName":"John","nickname":"Pete","lastName":"Ricketts","party":"republican","stats":{"countFilings":1,"countIssuers":5,"countTrades":5,"dateFirstTraded":"2023-01-18","dateLastTraded":"2023-02-09","volume":675000}},{"_politicianId":"S000168","countTrades":27,"firstName":"Maria","nickname":null,"lastName":"Elvira Salazar","party":"republican","stats":{"countFilings":10,"countIssuers":14,"countTrades":27,"dateFirstTraded":"2022-02-14","dateLastTraded":"2023-05-16","volume":1964000}},{"_politicianId":"S000185","countTrades":11,"firstName":"Robert","nickname":"Bobby","lastName":"Scott","party":"democrat","stats":{"countFilings":2,"countIssuers":11,"countTrades":11,"dateFirstTraded":"2020-12-30","dateLastTraded":"2021-12-28","volume":80500}},{"_politicianId":"S000250","countTrades":120,"firstName":"Peter","nickname":"Pete","lastName":"Sessions","party":"republican","stats":{"countFilings":26,"countIssuers":58,"countTrades":120,"dateFirstTraded":"2021-01-20","dateLastTraded":"2023-09-05","volume":2817805}},{"_politicianId":"S000344","countTrades":11,"firstName":"Bradley","nickname":"Brad","lastName":"Sherman","party":"democrat","stats":{"countFilings":4,"countIssuers":3,"countTrades":11,"dateFirstTraded":"2022-05-10","dateLastTraded":"2022-11-28","volume":3456000}},{"_politicianId":"S000929","countTrades":19,"firstName":"Victoria","nickname":null,"lastName":"Spartz","party":"republican","stats":{"countFilings":16,"countIssuers":3,"countTrades":19,"dateFirstTraded":"2021-01-22","dateLastTraded":"2023-08-03","volume":1982500}},{"_politicianId":"S001148","countTrades":42,"firstName":"Michael","nickname":"Mike","lastName":"Simpson","party":"republican","stats":{"countFilings":5,"countIssuers":23,"countTrades":42,"dateFirstTraded":"2021-01-04","dateLastTraded":"2023-03-14","volume":483000}},{"_politicianId":"S001150","countTrades":2,"firstName":"Adam","nickname":null,"lastName":"Schiff","party":"democrat","stats":{"countFilings":2,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2021-07-23","dateLastTraded":"2021-12-13","volume":40500}},{"_politicianId":"S001168","countTrades":2,"firstName":"John","nickname":null,"lastName":"Sarbanes","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":2,"dateFirstTraded":"2022-06-10","dateLastTraded":"2022-06-27","volume":16000}},{"_politicianId":"S001172","countTrades":5,"firstName":"Adrian","nickname":null,"lastName":"Smith","party":"republican","stats":{"countFilings":3,"countIssuers":2,"countTrades":5,"dateFirstTraded":"2022-01-19","dateLastTraded":"2023-07-17","volume":3056500}},{"_politicianId":"S001180","countTrades":384,"firstName":"Walter","nickname":"Kurt","lastName":"Schrader","party":"democrat","stats":{"countFilings":29,"countIssuers":165,"countTrades":384,"dateFirstTraded":"2020-10-01","dateLastTraded":"2022-11-25","volume":4237000}},{"_politicianId":"S001189","countTrades":73,"firstName":"James","nickname":"Austin","lastName":"Scott","party":"republican","stats":{"countFilings":14,"countIssuers":14,"countTrades":73,"dateFirstTraded":"2020-10-09","dateLastTraded":"2023-01-04","volume":902500}},{"_politicianId":"S001190","countTrades":12,"firstName":"Bradley","nickname":"Brad","lastName":"Schneider","party":"democrat","stats":{"countFilings":6,"countIssuers":7,"countTrades":12,"dateFirstTraded":"2020-12-09","dateLastTraded":"2023-06-27","volume":1598500}},{"_politicianId":"S001198","countTrades":93,"firstName":"Daniel","nickname":"Dan","lastName":"Sullivan","party":"republican","stats":{"countFilings":10,"countIssuers":49,"countTrades":93,"dateFirstTraded":"2021-03-05","dateLastTraded":"2023-08-22","volume":1031500}},{"_politicianId":"S001199","countTrades":1,"firstName":"Lloyd","nickname":null,"lastName":"Smucker","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2020-10-09","dateLastTraded":"2020-10-09","volume":32500}},{"_politicianId":"S001201","countTrades":238,"firstName":"Thomas","nickname":"Tom","lastName":"Suozzi","party":"democrat","stats":{"countFilings":13,"countIssuers":93,"countTrades":238,"dateFirstTraded":"2020-09-24","dateLastTraded":"2022-11-29","volume":9459397}},{"_politicianId":"S001203","countTrades":8,"firstName":"Christine","nickname":"Tina","lastName":"Smith","party":"democrat","stats":{"countFilings":5,"countIssuers":7,"countTrades":8,"dateFirstTraded":"2021-04-11","dateLastTraded":"2023-04-05","volume":790500}},{"_politicianId":"S001204","countTrades":4,"firstName":"Michael","nickname":null,"lastName":"San Nicolas","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":4,"dateFirstTraded":"2022-06-03","dateLastTraded":"2022-06-07","volume":1500000}},{"_politicianId":"S001205","countTrades":10,"firstName":"Mary","nickname":null,"lastName":"Gay Scanlon","party":"democrat","stats":{"countFilings":3,"countIssuers":7,"countTrades":10,"dateFirstTraded":"2021-02-01","dateLastTraded":"2023-05-23","volume":202500}},{"_politicianId":"S001207","countTrades":4,"firstName":"Rebecca","nickname":"Mikie","lastName":"Sherrill","party":"democrat","stats":{"countFilings":4,"countIssuers":1,"countTrades":4,"dateFirstTraded":"2021-03-09","dateLastTraded":"2023-03-03","volume":1100000}},{"_politicianId":"S001209","countTrades":3,"firstName":"Abigail","nickname":null,"lastName":"Spanberger","party":"democrat","stats":{"countFilings":3,"countIssuers":1,"countTrades":3,"dateFirstTraded":"2021-06-01","dateLastTraded":"2023-03-02","volume":24000}},{"_politicianId":"S001214","countTrades":13,"firstName":"William","nickname":"Greg","lastName":"Steube","party":"republican","stats":{"countFilings":7,"countIssuers":1,"countTrades":13,"dateFirstTraded":"2020-11-11","dateLastTraded":"2023-07-03","volume":128500}},{"_politicianId":"S001216","countTrades":28,"firstName":"Kimberly","nickname":"Kim","lastName":"Schrier","party":"democrat","stats":{"countFilings":4,"countIssuers":23,"countTrades":28,"dateFirstTraded":"2021-07-27","dateLastTraded":"2022-03-22","volume":3788000}},{"_politicianId":"S001217","countTrades":88,"firstName":"Richard","nickname":"Rick","lastName":"Scott","party":"republican","stats":{"countFilings":20,"countIssuers":36,"countTrades":88,"dateFirstTraded":"2020-11-24","dateLastTraded":"2023-08-15","volume":87250000}},{"_politicianId":"T000250","countTrades":3,"firstName":"John","nickname":null,"lastName":"Thune","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":3,"dateFirstTraded":"2021-12-16","dateLastTraded":"2022-05-05","volume":97500}},{"_politicianId":"T000278","countTrades":924,"firstName":"Thomas","nickname":"Tommy","lastName":"Tuberville","party":"republican","stats":{"countFilings":28,"countIssuers":245,"countTrades":924,"dateFirstTraded":"2021-01-04","dateLastTraded":"2023-08-31","volume":25310000}},{"_politicianId":"T000461","countTrades":24,"firstName":"Patrick","nickname":"Pat","lastName":"Toomey","party":"republican","stats":{"countFilings":10,"countIssuers":17,"countTrades":24,"dateFirstTraded":"2020-11-30","dateLastTraded":"2022-02-24","volume":290000}},{"_politicianId":"T000476","countTrades":1,"firstName":"Thomas","nickname":"Thom","lastName":"Tillis","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-08-30","dateLastTraded":"2022-08-30","volume":8000}},{"_politicianId":"T000479","countTrades":9,"firstName":"Nicholas","nickname":"Van","lastName":"Taylor","party":"republican","stats":{"countFilings":1,"countIssuers":9,"countTrades":9,"dateFirstTraded":"2022-11-28","dateLastTraded":"2022-11-28","volume":7523500}},{"_politicianId":"T000482","countTrades":1,"firstName":"Lori","nickname":null,"lastName":"Trahan","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2021-12-27","dateLastTraded":"2021-12-27","volume":8000}},{"_politicianId":"T000483","countTrades":7,"firstName":"David","nickname":null,"lastName":"Trone","party":"democrat","stats":{"countFilings":1,"countIssuers":5,"countTrades":7,"dateFirstTraded":"2023-02-16","dateLastTraded":"2023-02-16","volume":725000}},{"_politicianId":"T000488","countTrades":27,"firstName":"Shri","nickname":null,"lastName":"Thanedar","party":"democrat","stats":{"countFilings":1,"countIssuers":16,"countTrades":27,"dateFirstTraded":"2022-04-22","dateLastTraded":"2023-01-23","volume":755500}},{"_politicianId":"U000031","countTrades":9,"firstName":"Frederick","nickname":"Fred","lastName":"Upton","party":"republican","stats":{"countFilings":6,"countIssuers":8,"countTrades":9,"dateFirstTraded":"2021-05-07","dateLastTraded":"2022-11-07","volume":2155500}},{"_politicianId":"V000108","countTrades":1,"firstName":"Peter","nickname":"Pete","lastName":"Visclosky","party":"democrat","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2020-10-15","dateLastTraded":"2020-10-15","volume":8000}},{"_politicianId":"W000779","countTrades":56,"firstName":"Ronald","nickname":"Ron","lastName":"Wyden","party":"democrat","stats":{"countFilings":11,"countIssuers":24,"countTrades":56,"dateFirstTraded":"2020-09-23","dateLastTraded":"2022-11-11","volume":2131000}},{"_politicianId":"W000797","countTrades":30,"firstName":"Deborah","nickname":"Debbie","lastName":"Wasserman Schultz","party":"democrat","stats":{"countFilings":11,"countIssuers":9,"countTrades":30,"dateFirstTraded":"2020-10-13","dateLastTraded":"2023-01-24","volume":240000}},{"_politicianId":"W000800","countTrades":25,"firstName":"Peter","nickname":null,"lastName":"Welch","party":"democrat","stats":{"countFilings":4,"countIssuers":24,"countTrades":25,"dateFirstTraded":"2020-11-16","dateLastTraded":"2021-11-26","volume":371500}},{"_politicianId":"W000802","countTrades":23,"firstName":"Sheldon","nickname":null,"lastName":"Whitehouse","party":"democrat","stats":{"countFilings":10,"countIssuers":16,"countTrades":23,"dateFirstTraded":"2020-09-30","dateLastTraded":"2023-04-18","volume":429000}},{"_politicianId":"W000804","countTrades":161,"firstName":"Robert","nickname":"Rob","lastName":"Wittman","party":"republican","stats":{"countFilings":27,"countIssuers":94,"countTrades":161,"dateFirstTraded":"2020-10-02","dateLastTraded":"2023-05-30","volume":1459500}},{"_politicianId":"W000805","countTrades":16,"firstName":"Mark","nickname":null,"lastName":"Warner","party":"democrat","stats":{"countFilings":12,"countIssuers":11,"countTrades":16,"dateFirstTraded":"2020-10-27","dateLastTraded":"2023-08-08","volume":19707500}},{"_politicianId":"W000809","countTrades":1,"firstName":"Stephen","nickname":"Steve","lastName":"Womack","party":"republican","stats":{"countFilings":1,"countIssuers":1,"countTrades":1,"dateFirstTraded":"2022-11-17","dateLastTraded":"2022-11-17","volume":32500}},{"_politicianId":"W000812","countTrades":29,"firstName":"Ann","nickname":null,"lastName":"Wagner","party":"republican","stats":{"countFilings":17,"countIssuers":29,"countTrades":29,"dateFirstTraded":"2020-11-25","dateLastTraded":"2023-08-16","volume":6075000}},{"_politicianId":"W000823","countTrades":4,"firstName":"Michael","nickname":null,"lastName":"Waltz","party":"republican","stats":{"countFilings":2,"countIssuers":2,"countTrades":4,"dateFirstTraded":"2020-11-23","dateLastTraded":"2021-06-16","volume":15815000}},{"_politicianId":"Y000062","countTrades":55,"firstName":"John","nickname":null,"lastName":"Yarmuth","party":"democrat","stats":{"countFilings":4,"countIssuers":45,"countTrades":55,"dateFirstTraded":"2020-10-05","dateLastTraded":"2021-10-22","volume":489000}},{"_politicianId":"Y000067","countTrades":10,"firstName":"Rudolph","nickname":"Rudy","lastName":"Yakym","party":"republican","stats":{"countFilings":7,"countIssuers":1,"countTrades":10,"dateFirstTraded":"2022-11-25","dateLastTraded":"2023-09-05","volume":680000}}],"meta":{"path":"/politicians/minimal","query":"","viewId":"minimal"}},"dataUpdateCount":1,"dataUpdatedAt":1695252168553,"error":null,"errorUpdateCount":0,"errorUpdatedAt":0,"fetchFailureCount":0,"fetchMeta":null,"isFetching":false,"isInvalidated":false,"isPaused":false,"status":"success"},"queryKey":["fetchPoliticiansMinimal",{}],"queryHash":"[\"fetchPoliticiansMinimal\",{}]"}]}},"__N_SSG":true},"page":"/trades","query":{},"buildId":"Yd3CkonKDNgO4C5dBUYDG","isFallback":false,"gsp":true,"scriptLoader":[{"strategy":"afterInteractive","id":"gtm-script","children":"\n        (function () {\n          window.dataLayer = window.dataLayer || [];\n\n          function gtag() {\n            dataLayer.push(arguments);\n          }\n\n          if (localStorage.getItem('consentMode') === null) {\n            gtag('consent', 'default', {\n              'ad_storage': 'granted',\n              'analytics_storage': 'granted',\n              'personalization_storage': 'denied',\n              'functionality_storage': 'denied',\n              'security_storage': 'denied',\n            });\n          } else {\n            var consentData = JSON.parse(localStorage.getItem('consentMode'));\n            gtag('consent', 'default', consentData);\n          }\n\n          // GTM initialization\n          (function (w, d, s, l, i) {\n            w[l] = w[l] || [];\n            w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});\n            var f = d.getElementsByTagName(s)[0],\n                j = d.createElement(s),\n                dl = l != 'dataLayer' ? '\u0026l=' + l : '';\n            j.async = true;\n            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n            f.parentNode.insertBefore(j, f);\n          })(window, document, 'script', 'dataLayer', 'GTM-PNH9D6C');\n        })();\n      "}]}
+  </script>
+ </body>
+</html>
