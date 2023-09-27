@@ -14,10 +14,22 @@ def scrape_website(url):
         if response.status_code == 200:
             # Parse the HTML content of the page
             soup = BeautifulSoup(response.text, 'html.parser')
-            with open('raw_html.txt', 'w', encoding='utf-8') as file:
+            with open('raw_html3.txt', 'w', encoding='utf-8') as file:
                 file.write(str(soup.prettify()))
-            amt = soup.find_all('span', class_='q-label')
-            print(amt)    
+                #names = soup.find('h3', class_="q-fieldset politician-name")
+                tickers = soup.find('span', class_= "q-field issuer-ticker")
+                #dir = soup.find('div', class_='tx-type-tooltip-wrapper')
+                #dir.next_element.next_element
+                #print(names)
+                print(tickers)
+                #print(dir)
+                #names.next_element.next_element
+                tickers = tickers.parent.find('')
+                #dir.next_element.next_element
+                print('\n')
+                #print(names)
+                print(tickers)
+                #print(dir)
             '''    
             #checks whether this is the first time that the program is being run 
             flag_file_path = 'first_time.flag'
@@ -56,7 +68,7 @@ def scrape_website(url):
         print(f"An error occurred: {e}")
 
 # URL of the website to scrape
-url = "https://www.capitoltrades.com/trades"
+url = "https://www.capitoltrades.com/trades?page=4"
 
 # Set the interval (in seconds) for scraping (e.g., 3 hours)
 scraping_interval = 3 * 60 * 60  # 3 hours
