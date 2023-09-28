@@ -14,51 +14,39 @@ def scrape_website(url):
         if response.status_code == 200:
             # Parse the HTML content of the page
             soup = BeautifulSoup(response.text, 'html.parser')
-            with open('raw_html3.txt', 'w', encoding='utf-8') as file:
-                file.write(str(soup.prettify()))
-                #names = soup.find('h3', class_="q-fieldset politician-name")
-                tickers = soup.find('span', class_= "q-field issuer-ticker")
-                #dir = soup.find('div', class_='tx-type-tooltip-wrapper')
-                #dir.next_element.next_element
-                #print(names)
-                print(tickers)
-                #print(dir)
-                #names.next_element.next_element
-                tickers = tickers.parent.find('')
-                #dir.next_element.next_element
-                print('\n')
-                #print(names)
-                print(tickers)
-                #print(dir)
-            '''    
+            
+            '''with open('raw_html3.txt', 'w', encoding='utf-8') as file:
+                file.write(str(soup.prettify()))'''
+
             #checks whether this is the first time that the program is being run 
             flag_file_path = 'first_time.flag'
-            if os.path.exists(flag_file_path):
-                most_recent = df.iloc[0]
-                names = soup.find_all('h3', class_="q-fieldset politician-name")
-                tickers = soup.find_all('span', class_= "q-field issuer-ticker")
-                amt = soup.find_all()
-                name_list = [name.text for name in names]
-                ticker_list = [ticker.text for ticker in tickers]
-                df2 = pd.DataFrame({'Name': name_list, 'Tickers': ticker_list})
-                if(df.iloc[0] != most_recent):
             
-                    #check if first and last element of dataframes are the same
-                    if df2.iloc[-1] is df.iloc[0]:
-                    #combine data frames
-                    else:
-                    #combine data frames
-                    # find weight and make trade  
+            #creates dataframe
+            trade_df = pd.DataFrame(columns=['Ticker', 'Buy/Sell', 'Size of Trade'])
+
+            #if not first time
+            if os.path.exists(flag_file_path):
+                #TODO: add to exisitng df without duplication 
+                trades = soup.find_all("tr")
+                for element in trades[1:]:
+                    name = element.find("h3", class_ = 'q-fieldset politician-name').next.next
+                    ticker = element.find("span", class_ = 'q-field issuer-ticker').next
+                    direction = element.find("div", class_ = 'q-cell cell--tx-type').find('span').next
+                    trades_size = element.find('div', class_ = 'q-range-icon-wrapper').find('span', class_ = 'q-label').next
                     
             #if first time
             else:
-                with open(flag_file_path, 'w') as flag_file:
-                    flag_file.write("Flag indicating the program has run.")
-                names = soup.find_all('h3', class_="q-fieldset politician-name")
-                tickers = soup.find_all('span', class_= "q-field issuer-ticker")
-                name_list = [name.text for name in names]
-                ticker_list = [ticker.text for ticker in tickers]
-                df = pd.DataFrame({'Name': name_list, 'Tickers': ticker_list})'''
+                #with open(flag_file_path, 'w') as flag_file:
+                    #flag_file.write("Flag indicating the program has run.")
+                trades = soup.find_all("tr")
+                for element in trades[1:]:
+                    name = element.find("h3", class_ = 'q-fieldset politician-name').next.next
+                    ticker = element.find("span", class_ = 'q-field issuer-ticker').next
+                    direction = element.find("div", class_ = 'q-cell cell--tx-type').find('span').next
+                    trade_size = element.find('div', class_ = 'q-range-icon-wrapper').find('span', class_ = 'q-label').next
+                    to_append = pd.DataFrame({'Congress Person': [name], 'Ticker': [ticker], 'Buy/Sell': [direction], 'Size of Trade': [trade_size]})
+                    trade_df = pd.concat([trade_df , to_append], ignore_index=True).drop_duplicates()
+            print(trade_df)
             print("Scraping successful")
             
         else:
