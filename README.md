@@ -1,0 +1,1 @@
+This is a trading algorithim described in this article: https://seekingalpha.com/article/4527518-trade-like-the-us-congress. In short, it holds stocks that Congress members buy and shorts those that are sold. This uses beautiful soup to scrape congress stock trading data and use the Robinhood API to make the corresponding trades. 
