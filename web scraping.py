@@ -25,8 +25,9 @@ def scrape_website(url):
             #creates dataframe
             trade_df = pd.DataFrame()
             
-            #TODO: rethink how non first operation is working
+
             #if not first time
+            # TODO: rethink how non first operation is working
             if os.path.exists(flag_file_path):
                 #print('not first time')
                 trades = soup.find_all("tr")
@@ -53,7 +54,7 @@ def scrape_website(url):
                     trade_df = pd.concat([trade_df , to_append], ignore_index=True)
 
             trade_df = trade_df[~trade_df.apply(lambda row: row.astype(str).str.contains('N/A').any(), axis=1)]
-            print(trade_df)
+            #print(trade_df)
             print("Scraping successful")
             return trade_df
 
@@ -70,15 +71,17 @@ def execute_trade(trades):
     min_limit = 5
     to_execute = pd.DataFrame()
     #if not first set of trades
-    if os.path.exists(flag_file_path):
-        print("hi :)")
+    #TODO: handle this case
 
     #if first time set up trades
-    else:
-        with open(flag_file_path, 'w') as flag_file:
-            flag_file.write("Flag indicating the program has run.")
-        for element in trades.index:
-            print(trades['Ticker'][element])
+    #TODO: add handling to change from first time run to all other times is handled
+    for element in trades.index:
+        to_find = trades['Ticker'][element]
+        if to_execute.empty:
+            ticker = to_find
+            amount = trades['Size of Trade'][element]
+            direction = trades['Buy/Sell'][element]
+
 
 
 # URL of the website to scrape
