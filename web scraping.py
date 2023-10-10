@@ -53,7 +53,7 @@ def scrape_website(url):
                     to_append = pd.DataFrame({'Congress Person': [name],  'Stock name': [stock], 'Ticker': [ticker], 'Buy/Sell': [direction], 'Size of Trade': [trade_size]})
                     trade_df = pd.concat([trade_df , to_append], ignore_index=True)
 
-            trade_df = trade_df[~trade_df.apply(lambda row: row.astype(str).str.contains('N/A').any(), axis=1)]
+            #trade_df = trade_df[~trade_df.apply(lambda row: row.astype(str).str.contains('N/A').any(), axis=1)]
             #print(trade_df)
             print("Scraping successful")
             return trade_df
@@ -78,9 +78,24 @@ def execute_trade(trades):
     for element in trades.index:
         to_find = trades['Ticker'][element]
         if to_execute.empty:
-            ticker = to_find
-            amount = trades['Size of Trade'][element]
+            trade_size = trades['Size of Trade'][element]
             direction = trades['Buy/Sell'][element]
+            to_append = pd.DataFrame({'Ticker': [to_find], 'Buy/Sell': [direction], 'Size of Trade': [trade_size],
+                                      'Amount to trade': min_limit})
+            to_execute = pd.concat([to_execute , to_append], ignore_index=True)
+
+        else:
+            row_number = to_execute.index[to_execute.apply(lambda row: to_find in row.to_string(), axis=1)].tolist()
+            if row_number:
+                to_execute.loc[row_number, 'Amount to trade'] = to_execute.loc[row_number, 'Amount to trade'] + 5
+            else:
+                trade_size = trades['Size of Trade'][element]
+                direction = trades['Buy/Sell'][element]
+                to_append = pd.DataFrame(
+                    {'Ticker': [to_find], 'Buy/Sell': [direction], 'Size of Trade': [trade_size],
+                         'Amount to trade': min_limit})
+                to_execute = pd.concat([to_execute, to_append], ignore_index=True)
+    print(to_execute.to_string())
 
 
 
@@ -93,8 +108,8 @@ scraping_interval = 8 * 60 * 60  # 8 hours
 #continous website scraping
 while True:
     trades = scrape_website(url)
+    print(trades.to_string())
     execute_trade(trades)
-    #print(trades)
     time.sleep(scraping_interval)
 
 
