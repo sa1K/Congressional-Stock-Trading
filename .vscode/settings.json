@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "c:/Users/svsvs/PycharmProjects/Congress-Trading/Congressional-Stock-Trading/."
+    ],
+    "python.terminal.activateEnvironment": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+}
