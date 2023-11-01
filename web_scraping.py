@@ -108,6 +108,7 @@ def scrape_website(url):
         print(f"An error occurred: {e}")
 
 
+"""
 def execute_trade(trades):
     max_limit = 50
     min_limit = 5
@@ -153,17 +154,4 @@ def execute_trade(trades):
                 )
                 to_execute = pd.concat([to_execute, to_append], ignore_index=True)
     print(to_execute.to_string())
-
-
-# URL of the website to scrape
-url = "https://www.capitoltrades.com/trades"
-
-# Set the interval for scraping
-scraping_interval = 8 * 60 * 60  # 8 hours
-
-# continous website scraping
-while True:
-    trades = scrape_website(url)
-    print(trades.to_string())
-    execute_trade(trades)
-    time.sleep(scraping_interval)
+"""

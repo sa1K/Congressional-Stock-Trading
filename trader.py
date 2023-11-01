@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 import selenium.common.exceptions
 import config
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 
 
 def login(driver):
@@ -28,8 +29,16 @@ def login(driver):
     driver.find_element(By.XPATH, '//*[@id="submitbutton"]/div/button').click()
 
 
+def trade(driver):
+    driver.implicitly_wait(60)
+    driver.find_element(By.XPATH, '//*[@id="downshift-0-input"]').send_keys("WMT")
+    driver.implicitly_wait(1)
+    driver.find_element(By.XPATH, '//*[@id="downshift-0-input"]').send_keys(Keys.RETURN)
+
+
 if __name__ == "__main__":
     chrome_options = Options()
     chrome_options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=chrome_options)
     login(driver)
+    trade(driver)
