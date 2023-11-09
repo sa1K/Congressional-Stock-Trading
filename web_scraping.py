@@ -19,7 +19,8 @@ def scrape_website(url):
         if response.status_code == 200:
             # Parse the HTML content of the page
             soup = BeautifulSoup(response.text, "html.parser")
-
+            with open("output.txt", "w", encoding="utf-8") as file:
+                file.write(soup.prettify())
             # with open('raw_html.txt', 'w', encoding='utf-8') as file:
             # file.write(str(soup.prettify()))
 
@@ -29,7 +30,6 @@ def scrape_website(url):
             # if not first time
             # TODO: rethink how non first operation is working
             if os.path.exists(flag_file_path):
-                # print('not first time')
                 trades = soup.find_all("tr")
                 for element in trades[1:]:
                     name = element.find(
@@ -69,20 +69,25 @@ def scrape_website(url):
                     name = element.find(
                         "h3", class_="q-fieldset politician-name"
                     ).next.next
+
                     stock = element.find(
                         "h3", class_="q-fieldset issuer-name"
                     ).next.next
+
                     ticker = element.find("span", class_="q-field issuer-ticker").next
+
                     direction = (
                         element.find("div", class_="q-cell cell--tx-type")
                         .find("span")
                         .next
                     )
+
                     trade_size = (
                         element.find("div", class_="q-range-icon-wrapper")
                         .find("span", class_="q-label")
                         .next
                     )
+
                     to_append = pd.DataFrame(
                         {
                             "Congress Person": [name],
@@ -92,10 +97,14 @@ def scrape_website(url):
                             "Size of Trade": [trade_size],
                         }
                     )
+
                     trade_df = pd.concat([trade_df, to_append], ignore_index=True)
 
-            # trade_df = trade_df[~trade_df.apply(lambda row: row.astype(str).str.contains('N/A').any(), axis=1)]
-            # print(trade_df)
+            """trade_df = trade_df[
+                ~trade_df.apply(
+                    lambda row: row.astype(str).str.contains("N/A").any(), axis=1
+                )
+            ]"""
             print("Scraping successful")
             return trade_df
 
