@@ -2,9 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import selenium.common.exceptions
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
 import pandas as pd
-import web_scraping as scraping
+#import web_scraping as scraping
+import scrape
 import config
 
 
@@ -66,7 +66,8 @@ if __name__ == "__main__":
     chrome_options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=chrome_options)
     # trades = scraping.scrape_website(config.url)
-    driver.get("https://www.capitoltrades.com/trades?per_page=96")
+    # driver.get("https://www.capitoltrades.com/trades?per_page=96")
+    scrape.trade_list(driver, "https://www.capitoltrades.com/trades?per_page=96")
     # trades_2 = scraping.scrape_website("https://www.capitoltrades.com/trades")
     # print(trades_2.shape[0])
 
