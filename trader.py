@@ -3,7 +3,10 @@ from selenium.webdriver.common.by import By
 import selenium.common.exceptions
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
-#import web_scraping as scraping
+from selenium.webdriver.common.keys import Keys
+
+
+# import web_scraping as scraping
 import scrape
 import config
 
@@ -61,17 +64,29 @@ def make_trade(driver, stock, amount, direction):
         print("done")
 
 
+def get_ticker(driver, company):
+    driver.get("https://www.google.com/")
+    driver.implicitly_wait(15)
+    search = driver.find_element(By.NAME, "q")
+    query = company + " stock"
+    search.send_keys(query)
+    search.send_keys(Keys.RETURN)
+    driver.implicitly_wait(5)
+    ticker = driver.find_element(
+        By.XPATH,
+        '//*[@id="rcnt"]/div[2]/div/div/div[3]/div[1]/div/div/div[2]/div[2]/div[1]/div/span',
+    ).get_attribute("outerHTML")
+    start = ticker.find(" ")
+    end = ticker.find("</")
+    print(ticker[start + 1 : end])
+
+
 if __name__ == "__main__":
     chrome_options = Options()
     chrome_options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=chrome_options)
-    # trades = scraping.scrape_website(config.url)
-    # driver.get("https://www.capitoltrades.com/trades?per_page=96")
-    scrape.trade_list(driver, "https://www.capitoltrades.com/trades?per_page=96")
-    # trades_2 = scraping.scrape_website("https://www.capitoltrades.com/trades")
-    # print(trades_2.shape[0])
-
-    # login(driver)
-    # for element in trades.index:
-    # make_trade(driver, trades["Ticker"][element], 1, trades["Direction"][element])
-    # make_trade(driver, "LLY", 0.05, "sell")
+    trades = scrape.trade_list(
+        driver, "https://www.capitoltrades.com/trades?per_page=96"
+    )
+    test = trades.iloc[0, 1]
+    get_ticker(driver, test)
