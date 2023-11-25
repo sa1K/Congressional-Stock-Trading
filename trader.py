@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import selenium.common.exceptions
+import selenium.common.exceptions as exceptions
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
 from selenium.webdriver.common.keys import Keys
-
+from datetime import date
+from datetime import timedelta
 
 # import web_scraping as scraping
 import scrape
@@ -65,20 +66,32 @@ def make_trade(driver, stock, amount, direction):
 
 
 def get_ticker(driver, company):
-    driver.get("https://www.google.com/")
-    driver.implicitly_wait(15)
-    search = driver.find_element(By.NAME, "q")
-    query = company + " stock"
-    search.send_keys(query)
-    search.send_keys(Keys.RETURN)
-    driver.implicitly_wait(5)
-    ticker = driver.find_element(
-        By.XPATH,
-        '//*[@id="rcnt"]/div[2]/div/div/div[3]/div[1]/div/div/div[2]/div[2]/div[1]/div/span',
-    ).get_attribute("outerHTML")
-    start = ticker.find(" ")
-    end = ticker.find("</")
-    print(ticker[start + 1 : end])
+    try:
+        if "N/A" not in company:
+            driver.get("https://www.google.com/")
+            driver.implicitly_wait(15)
+            search = driver.find_element(By.NAME, "q")
+            query = company + " stock"
+            search.send_keys(query)
+            search.send_keys(Keys.RETURN)
+            driver.implicitly_wait(5)
+            ticker = driver.find_element(
+                By.XPATH,
+                '//*[@id="rcnt"]/div[2]/div/div/div[3]/div[1]/div/div/div[2]/div[2]/div[1]/div/span',
+            ).get_attribute("outerHTML")
+            start = ticker.find(" ")
+            end = ticker.find("</")
+            return ticker[start + 1 : end]
+        else:
+            return "N/A"
+    except exceptions.NoSuchElementException:
+        return "N/A"
+
+
+def trade_weight(driver, trades):
+    last_week = (date.today() - timedelta(days=7)).strftime("%Y %d %b")
+    for row in range(len(trades)):
+        print(get_ticker(driver, trades.iloc[row, 1]))
 
 
 if __name__ == "__main__":
@@ -88,5 +101,14 @@ if __name__ == "__main__":
     trades = scrape.trade_list(
         driver, "https://www.capitoltrades.com/trades?per_page=96"
     )
-    test = trades.iloc[0, 1]
-    get_ticker(driver, test)
+    page = 2
+    while page <= 4:
+        trades2 = scrape.trade_list(
+            driver, "https://www.capitoltrades.com/trades?per_page=96&page=" + str(page)
+        )
+        trades = pd.concat([trades, trades2], ignore_index=True)
+        page = page + 1
+    # print(trades)
+    # print("\n")
+    trade_weight(driver, trades)
+    driver.quit()
