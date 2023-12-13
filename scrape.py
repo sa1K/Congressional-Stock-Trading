@@ -7,6 +7,6 @@ from io import StringIO
 
 def trade_list(driver, url):
     driver.get(url)
-    driver.implicitly_wait(40)
+    driver.implicitly_wait(10)
     trades = pd.read_html(StringIO(driver.page_source))[0]
     return trades

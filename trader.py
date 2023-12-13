@@ -6,6 +6,7 @@ import pandas as pd
 from selenium.webdriver.common.keys import Keys
 from datetime import date
 from datetime import timedelta
+import time
 
 # import web_scraping as scraping
 import scrape
@@ -82,16 +83,26 @@ def get_ticker(driver, company):
             start = ticker.find(" ")
             end = ticker.find("</")
             return ticker[start + 1 : end]
-        else:
-            return "N/A"
     except exceptions.NoSuchElementException:
         return "N/A"
 
 
-def trade_weight(driver, trades):
-    last_week = (date.today() - timedelta(days=7)).strftime("%Y %d %b")
+def trade_weight(driver, trades, days):
+    weights = pd.DataFrame(columns=["ticker", "number of times", "weight"])
+    last_week = (date.today() - timedelta(days=days)).strftime("%Y %d %b")
     for row in range(len(trades)):
-        print(get_ticker(driver, trades.iloc[row, 1]))
+        if trades.iloc[row, 2] >= last_week:
+            ticker = get_ticker(driver, trades.iloc[row, 1])
+            if ticker != "N/A":
+                if ticker not in weights.values:
+                    weights.loc[len(trades)] = [ticker, 1, 0.01]
+                else:
+                    index = weights[weights.ticker == ticker].index[0]
+                    prev_val = weights.at[index, "weight"]
+                    prev_time = weights.at[index, "number of times"]
+                    weights.at[index, "weight"] = prev_val + 0.01
+                    weights.at[index, "number of times"] = prev_time + 1
+    return weights
 
 
 if __name__ == "__main__":
@@ -102,13 +113,15 @@ if __name__ == "__main__":
         driver, "https://www.capitoltrades.com/trades?per_page=96"
     )
     page = 2
-    while page <= 4:
+    while page <= 3:
+        time.sleep(3)
         trades2 = scrape.trade_list(
             driver, "https://www.capitoltrades.com/trades?per_page=96&page=" + str(page)
         )
         trades = pd.concat([trades, trades2], ignore_index=True)
         page = page + 1
-    # print(trades)
+    # print(trades.iloc[:, 2])
     # print("\n")
-    trade_weight(driver, trades)
+    weights = trade_weight(driver, trades, 1)
+    print(weights.to_string())
     driver.quit()
