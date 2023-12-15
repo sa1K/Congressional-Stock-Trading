@@ -6,6 +6,7 @@ import pandas as pd
 from selenium.webdriver.common.keys import Keys
 from datetime import date
 from datetime import timedelta
+from datetime import datetime
 import time
 
 # import web_scraping as scraping
@@ -68,7 +69,7 @@ def make_trade(driver, stock, amount, direction):
 
 def get_ticker(driver, company):
     try:
-        if "N/A" not in company:
+        if "N/A" not in company or "None" not in company:
             driver.get("https://www.google.com/")
             driver.implicitly_wait(15)
             search = driver.find_element(By.NAME, "q")
@@ -88,40 +89,57 @@ def get_ticker(driver, company):
 
 
 def trade_weight(driver, trades, days):
-    weights = pd.DataFrame(columns=["ticker", "number of times", "weight"])
-    last_week = (date.today() - timedelta(days=days)).strftime("%Y %d %b")
+    weights = pd.DataFrame(columns=["ticker", "number of times", "weight", "direction"])
+    earliest_day = (date.today() - timedelta(days=days)).strftime("%Y %d %b")
+    weight_index = 0
     for row in range(len(trades)):
-        if trades.iloc[row, 2] >= last_week:
+        if "Yesterday" in trades.iloc[row, 2]:
+            trade_date = (date.today() - timedelta(days=1)).strftime("%Y %d %b")
+        elif "Today" in trades.iloc[row, 2]:
+            trade_date = date.today().strftime("%Y %d %b")
+        else:
+            trade_date = trades.iloc[row, 2]
+        if trade_date >= earliest_day:
             ticker = get_ticker(driver, trades.iloc[row, 1])
+            print(ticker)
+            print(trade_date)
             if ticker != "N/A":
                 if ticker not in weights.values:
-                    weights.loc[len(trades)] = [ticker, 1, 0.01]
+                    weights.loc[weight_index] = [ticker, 1, 0.01, trades.iloc[row, 6]]
+                    weight_index = weight_index + 1
                 else:
                     index = weights[weights.ticker == ticker].index[0]
                     prev_val = weights.at[index, "weight"]
                     prev_time = weights.at[index, "number of times"]
                     weights.at[index, "weight"] = prev_val + 0.01
                     weights.at[index, "number of times"] = prev_time + 1
+            print(weights)
+            print("\n")
+        else:
+            break
     return weights
 
 
 if __name__ == "__main__":
     chrome_options = Options()
-    chrome_options.add_experimental_option("detach", True)
+    # chrome_options.add_experimental_option("detach", True)
+    # chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(options=chrome_options)
-    trades = scrape.trade_list(
-        driver, "https://www.capitoltrades.com/trades?per_page=96"
-    )
-    page = 2
+    trades = pd.DataFrame()
+    page = 1
     while page <= 3:
-        time.sleep(3)
+        # time.sleep(3.5)
         trades2 = scrape.trade_list(
             driver, "https://www.capitoltrades.com/trades?per_page=96&page=" + str(page)
         )
         trades = pd.concat([trades, trades2], ignore_index=True)
         page = page + 1
-    # print(trades.iloc[:, 2])
+    """trades2 = scrape.trade_list(
+        driver, "https://www.capitoltrades.com/trades?per_page=12"
+    )
+    trades = pd.concat([trades, trades2], ignore_index=True)"""
+    # print(trades.iloc[:, 1])
     # print("\n")
     weights = trade_weight(driver, trades, 1)
-    print(weights.to_string())
+    print(weights)
     driver.quit()
