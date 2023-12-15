@@ -32,7 +32,7 @@ def login(driver):
                 '//*[@id="react_root"]/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[3]/label/div/div/div',
             ).click()
             break
-        except selenium.common.exceptions.NoSuchElementException as e:
+        except exceptions.NoSuchElementException as e:
             print("Retry in 1 second")
             driver.implicitly_wait(1)
     else:
