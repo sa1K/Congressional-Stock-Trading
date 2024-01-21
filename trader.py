@@ -43,7 +43,7 @@ def login(driver):
     driver.implicitly_wait(60)
 
 
-def make_trade(driver, stock, amount, direction):
+def make_trade(driver, stock, amount, direction):  # executes the trade in robinhood
     driver.implicitly_wait(60)
     # search name
     driver.find_element(By.XPATH, '//*[@id="downshift-0-input"]').send_keys(stock)
@@ -59,15 +59,15 @@ def make_trade(driver, stock, amount, direction):
             '//*[@id="sdp-ticker-symbol-highlight"]/div[1]/form/div[1]/div/div[1]/div/div/div[2]/div/div/div/div',
         ).click()
         driver.find_element(By.NAME, "stopPrice").send_keys(amount)
-        print("done")
+        # print("done")
     elif direction == "buy":
         print("buying")
         driver.implicitly_wait(30)
         driver.find_element(By.NAME, "stopPrice").send_keys(amount)
-        print("done")
+        # print("done")
 
 
-def get_ticker(driver, company):
+def get_ticker(driver, company):  # finds the ticker of company traded
     try:
         if "N/A" not in company or "None" not in company:
             driver.get("https://www.google.com/")
@@ -89,42 +89,45 @@ def get_ticker(driver, company):
 
 
 def trade_weight(driver, trades, days):
+    # creates dataframe
     weights = pd.DataFrame(columns=["ticker", "number of times", "weight", "direction"])
-    earliest_day = (date.today() - timedelta(days=days)).strftime("%Y %d %b")
+    earliest_day = (date.today() - timedelta(days=days)).strftime(
+        "%Y %d %b"
+    )  # earliest date that we care about
     weight_index = 0
     for row in range(len(trades)):
-        if "Yesterday" in trades.iloc[row, 2]:
+        if "Yesterday" in trades.iloc[row, 2]:  # converts scraped data into useful info
             trade_date = (date.today() - timedelta(days=1)).strftime("%Y %d %b")
         elif "Today" in trades.iloc[row, 2]:
             trade_date = date.today().strftime("%Y %d %b")
         else:
-            trade_date = trades.iloc[row, 2]
+            trade_date = trades.iloc[row, 2]  # gets trade date from scraped data
         if trade_date >= earliest_day:
             ticker = get_ticker(driver, trades.iloc[row, 1])
-            print(ticker)
-            print(trade_date)
             if ticker != "N/A":
-                if ticker not in weights.values:
+                if ticker not in weights.values:  # adds new stock
                     weights.loc[weight_index] = [ticker, 1, 0.01, trades.iloc[row, 6]]
                     weight_index = weight_index + 1
-                else:
+                else:  # updates already existing stock
                     index = weights[weights.ticker == ticker].index[0]
                     prev_val = weights.at[index, "weight"]
                     prev_time = weights.at[index, "number of times"]
                     weights.at[index, "weight"] = prev_val + 0.01
                     weights.at[index, "number of times"] = prev_time + 1
-            print(weights)
-            print("\n")
+            # print(weights)
+            # print("\n")
         else:
             break
     return weights
 
 
 if __name__ == "__main__":
+    # setting up drivers
     chrome_options = Options()
-    # chrome_options.add_experimental_option("detach", True)
-    # chrome_options.add_argument("--headless")
+    chrome_options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=chrome_options)
+
+    # inital setup on first run
     trades = pd.DataFrame()
     page = 1
     while page <= 3:
@@ -134,12 +137,31 @@ if __name__ == "__main__":
         )
         trades = pd.concat([trades, trades2], ignore_index=True)
         page = page + 1
-    """trades2 = scrape.trade_list(
-        driver, "https://www.capitoltrades.com/trades?per_page=12"
-    )
-    trades = pd.concat([trades, trades2], ignore_index=True)"""
-    # print(trades.iloc[:, 1])
-    # print("\n")
-    weights = trade_weight(driver, trades, 1)
+    weights = trade_weight(driver, trades, 14)
     print(weights)
+    login(driver)
+    for row in range(len(weights)):
+        make_trade(
+            driver, weights.iloc[row, 0], weights.iloc[row, 2], weights.iloc[row, 3]
+        )
+
+    # makes daily trades
+    start_date = date.today()
+    while True:
+        if date.today() > start_date:
+            page = 1
+            while page <= 3:
+                trades2 = scrape.trade_list(
+                    driver,
+                    "https://www.capitoltrades.com/trades?per_page=96&page="
+                    + str(page),
+                )
+                trades = pd.concat([trades, trades2], ignore_index=True)
+                page = page + 1
+        weights = trade_weight(driver, trades, 1)
+        for row in range(len(weights)):
+            make_trade(
+                driver, weights.iloc[row, 0], weights.iloc[row, 2], weights.iloc[row, 3]
+            )
+
     driver.quit()
